@@ -3,6 +3,11 @@ import { createPortal } from 'react-dom'
 import { useMount } from 'react-use'
 import { throttle } from 'throttle-debounce'
 import { servicesContext } from '../contexts/services-context'
+import {
+  createTocClasssNameValue,
+  StructTocClassNameContext,
+  tocClassNameContext
+} from '../contexts/toc-class-name-context'
 import { CanbetocEmitter } from '../models/canbetoc-emitter'
 import { StructCanbetoocEventContext } from '../models/event-context'
 import { TraitStackNode } from '../models/stack-node'
@@ -29,6 +34,7 @@ export interface CanbetocPropsCommonn {
   // FIXME
   onIntoViewport?: (context: { tocAnchorElements: Element[] }) => void
   selectors: string[]
+  tocClassName?: Partial<StructTocClassNameContext>
 }
 
 export type CanbetocProps =
@@ -151,7 +157,8 @@ export const Canbetoc: CanbetocFC = <Props extends CanbetocProps>(
     noToc = false,
     onIntoOutOfViewport,
     onIntoViewport,
-    selectors
+    selectors,
+    tocClassName
   } = props
   const [rendered, setRendered] = React.useState(false)
   useMount(setRendered.bind(null, true))
@@ -295,7 +302,10 @@ export const Canbetoc: CanbetocFC = <Props extends CanbetocProps>(
 
     if (!noToc && isElement(portalRoot)) {
       const contents: React.ReactElement = (
-        <CanbetocList nodes={stackNodes.current} />
+        <tocClassNameContext.Provider
+          value={createTocClasssNameValue(tocClassName)}>
+          <CanbetocList nodes={stackNodes.current} />
+        </tocClassNameContext.Provider>
       )
 
       portal = createPortal(contents, portalRoot)

@@ -1,1 +1,2 @@
-export { Canbetoc, CanbetocProps } from './_internals'
+export { Canbetoc } from './_internals'
+export type { CanbetocProps } from './_internals'
