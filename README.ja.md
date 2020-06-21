@@ -1,10 +1,10 @@
 # react-canbetoc
 
-A React component to create table of contents.
+目次が作れる React コンポーネントです。
 
 ## Install
 
-It is necessary to install `react` and `react-dom` together.
+`react`と`react-dom`と一緒にインストールが必要です。
 
 ```jsx
 yarn add react react-dom react-canbetoc
@@ -20,15 +20,15 @@ import { Canbetoc } from 'react-canbetoc'
 return (
   <Canbetoc
     id="unique-id"
-    // You can specify a selectors roughly
-    // They have the priority that younger the index number
+    // 目次となる大雑把なセレクターを指定します
+    // インデックスが若いほど大きい目次として扱われます
     selectors={['h2', 'h3', 'h4']}
   >
     <article>
       <header>...</header>
 
       <div>
-        {/* An element want to be the table of contents should has also the `id` attribute */}
+        {/* 目次となる要素には`id`指定が必須です */}
         <h2 id="article-title-1">Article Title</h2>
         <p>...</p>
 
@@ -45,8 +45,8 @@ return (
         <p>...</p>
 
         {/*
-       The markup should be order specified by the `selectors` property
-       For instance in the below, The `h4` tag is not become the table of contents because an `h3` is skipping
+       マークアップは必ずプロパティで指定したセレクターの順番にする必要があります
+       以下の場合、`h3`が飛ばされている為`h4`は目次に現れません
        */}
         <h2 id="...">...</h2>
         <h4 id="...">...</h4>

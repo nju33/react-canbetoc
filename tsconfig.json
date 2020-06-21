@@ -1,6 +1,6 @@
 {
   "include": ["*.config.js", ".*rc.js", ".storybook/*.js", "src"],
-  "exclude": ["src/__mocks__/**/*", "src/__tests__/**/*", "src/**/*.test.ts*"],
+  "exclude": [],
   "compilerOptions": {
     "target": "es6",
     "module": "esnext",

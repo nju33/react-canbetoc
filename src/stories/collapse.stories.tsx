@@ -1,6 +1,6 @@
 import faker from 'faker'
 import React from 'react'
-import { Canbetoc } from '..'
+import { Canbetoc, StructCanbetoocEventContext } from '..'
 
 export default { title: 'Canbetoc' }
 
@@ -15,14 +15,8 @@ const useStyle = (): void => {
   body {
     line-height: 3;
   }
-  h2,h3,h4,h5 {
-    font-weight: bold;
-  }
   .canbetoc-toc_list {
-    margin-left: 2em;
-  }
-  [data-canbetoc-toc-displayed="true"] {
-    color: orange;
+    margin-left: 2em
   }
       `
 
@@ -34,7 +28,7 @@ const useStyle = (): void => {
   }, [])
 }
 
-export const Visibling = (): React.ReactElement => {
+export const Collapse = (): React.ReactElement => {
   const [num, setNum] = React.useState(0)
 
   useStyle()
@@ -49,7 +43,7 @@ export const Visibling = (): React.ReactElement => {
       <div>
         <Canbetoc
           id="a"
-          selectors={['h2', 'h3', 'h4', 'h5']}
+          selectors={['h2', 'h3']}
           handleElementEntersOntoVisible={(stack) => {
             console.log(stack.getEntires())
             console.log(stack.getAncestors())

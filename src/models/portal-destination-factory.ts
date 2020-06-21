@@ -1,11 +1,11 @@
 import { PortalDestination, TraitPortalDestination } from './portal-destination'
 
 export interface TraitPortalDestinationFactory {
-  create: () => TraitPortalDestination
+  get: () => TraitPortalDestination
 }
 
 export class PortalDestinationFactory implements TraitPortalDestinationFactory {
-  create(): TraitPortalDestination {
+  get(): TraitPortalDestination {
     return new PortalDestination()
   }
 }
