@@ -54,8 +54,6 @@ export function* generatorTocBuilderCommands(
   while (true) {
     const result = takeLeftWhileMatchingCurrentSelector(elements)
     const right = [...elements].slice(result.length)
-    // stack.push(current)
-    // current = elements[++index]
 
     yield new TocBuilderCommand(getCurrentSelector(), result)
 
