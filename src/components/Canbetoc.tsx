@@ -2,12 +2,12 @@ import { pipe } from 'fp-ts/lib/function'
 import { chain, mapNullable, toNullable } from 'fp-ts/lib/Option'
 import React, { cloneElement, ReactElement, useContext, useMemo } from 'react'
 import { createPortal } from 'react-dom'
-import { implicitContext } from '../contexts/Implicit-context'
 import {
   createTocClasssNameValue,
+  implicitContext,
   StructTocClassNameContext,
   tocClassNameContext
-} from '../contexts/toc-class-name-context'
+} from '../contexts'
 import { CanbetocList } from './CanbetocList'
 
 export interface CanbetocProps {

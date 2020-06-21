@@ -1,1 +1,1 @@
-export { tocListDataTable, tocItemDataTable } from './_internal'
+export * from './_internal'

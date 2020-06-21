@@ -1,4 +1,2 @@
-export * from './components'
-export * from './contexts'
-export * from './models'
-export * from './services'
+export { Canbetoc } from './components'
+export type { CanbetocProps } from './components'
