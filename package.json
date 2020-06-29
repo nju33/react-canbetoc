@@ -41,7 +41,7 @@
     "@storybook/addon-knobs": "5.3.19",
     "@storybook/react": "5.3.19",
     "@testing-library/dom": "7.19.0",
-    "@testing-library/jest-dom": "5.10.1",
+    "@testing-library/jest-dom": "5.11.0",
     "@types/eslint": "7.2.0",
     "@types/faker": "4.1.12",
     "@types/jest": "26.0.3",
