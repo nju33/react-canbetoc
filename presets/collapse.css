@@ -1,0 +1,58 @@
+.canbetoc-toc_list {
+  margin-left: 2em;
+}
+
+[data-canbetoc-toc-id] {
+  transition: 0.3s;
+}
+
+/* [data-canbetoc-toc-active-branch='false'][data-canbetoc-toc-active-item='false'] {
+  height: 0 !important;
+  overflow: hidden;
+} */
+
+[data-canbetoc-toc-active-branch='false'][data-canbetoc-hierarchy-level='1'] {
+  height: auto !important;
+  /* height: attr(data-canbetoc-anchor-height); */
+  /* overflow: hidden; */
+}
+
+[data-canbetoc-toc-active-branch='false'][data-canbetoc-hierarchy-level='1']:before {
+  content: '';
+  /* display: inline-block; */
+  /* height: attr(data-canbetoc-anchor-height); */
+}
+
+/* [data-canbetoc-toc-active-branch='true'] {
+  color: orange;
+} */
+
+[data-canbetoc-toc-hierarchy-level='1'][data-canbetoc-toc-active-branch='true']
+  [data-canbetoc-toc-hierarchy-level='2'] {
+  height: auto !important;
+  overflow: auto;
+}
+[data-canbetoc-toc-hierarchy-level='2'][data-canbetoc-toc-active-branch='true']
+  [data-canbetoc-toc-hierarchy-level='3'] {
+  height: auto !important;
+  overflow: auto;
+}
+[data-canbetoc-toc-hierarchy-level='3'][data-canbetoc-toc-active-branch='true']
+  [data-canbetoc-toc-hierarchy-level='4'] {
+  height: auto !important;
+  overflow: auto;
+}
+[data-canbetoc-toc-hierarchy-level='4'][data-canbetoc-toc-active-branch='true']
+  [data-canbetoc-toc-hierarchy-level='5'] {
+  height: auto !important;
+  overflow: auto;
+}
+[data-canbetoc-toc-hierarchy-level='5'][data-canbetoc-toc-active-branch='true']
+  [data-canbetoc-toc-hierarchy-level='6'] {
+  height: auto !important;
+  overflow: auto;
+}
+
+[data-canbetoc-toc-active-branch='true'] > a {
+  color: orange;
+}

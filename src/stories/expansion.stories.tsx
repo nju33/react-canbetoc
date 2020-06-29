@@ -1,33 +1,27 @@
-import { radios, withKnobs } from '@storybook/addon-knobs'
 import faker from 'faker'
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { Canbetoc } from '..'
-import { CollapseStrategy } from '../strategies/collapse'
+import { ExpansionStrategy } from '../strategies/expansion'
 
-export default { title: 'Canbetoc', decorators: [withKnobs] }
+export default { title: 'Canbetoc' }
 
 const FakeP: React.FC = () => {
   return <p>{faker.lorem.sentences()}</p>
 }
 
-const strategy = new CollapseStrategy()
+const strategy = new ExpansionStrategy()
 
-export const Collapse = (): React.ReactElement => {
-  const cssLinkHref = radios(
-    'css-theme',
-    {
-      'left-border': '/src/strategies/collapse/left-border.css',
-      'text-color': '/src/strategies/collapse/text-color.css'
-    },
-    '/src/strategies/collapse/left-border.css'
-  )
+export const Expansion = (): React.ReactElement => {
   const [num, setNum] = React.useState(0)
 
   return (
     <>
       <Helmet>
-        <link rel="stylesheet" href={cssLinkHref} />
+        <link
+          rel="stylesheet"
+          href="/src/strategies/expansion/text-color.css"
+        />
       </Helmet>
       <div className="flex relative self-start">
         <div className="flex-none w-2/6 sticky top-0 h-0">
@@ -36,11 +30,11 @@ export const Collapse = (): React.ReactElement => {
             className="h-10 w-full bg-gray-200 hover:bg-gray-400 duration-100 border">
             Refresh
           </button>
-          <div data-canbetoc-id="collapse" className="w-full py-2" />
+          <div data-canbetoc-id="expansion" className="w-full py-2" />
         </div>
         <main>
           <Canbetoc
-            id="collapse"
+            id="expansion"
             selectors={['h2', 'h3', 'h4', 'h5']}
             strategy={strategy}>
             <div style={{ margin: '1500px 0' }}>

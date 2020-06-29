@@ -1,112 +1,142 @@
+import { sequenceT } from 'fp-ts/lib/Apply'
 import { pipe } from 'fp-ts/lib/function'
-import { fold, getOrElse, map, toNullable, toUndefined } from 'fp-ts/lib/Option'
+import {
+  chain,
+  fromNullable,
+  getOrElse,
+  map,
+  option,
+  some
+} from 'fp-ts/lib/Option'
 import React, {
+  createContext,
+  forwardRef,
   memo,
   NamedExoticComponent,
+  RefAttributes,
   useCallback,
   useContext,
-  useMemo
+  useState
 } from 'react'
 import { tocClassNameContext } from '../contexts/toc-class-name-context'
-import { TraitTocEntry } from '../entities/toc-entry'
+import { TraitTocEntryDao } from '../entities/toc-entry-dao'
 
 export const getKey = getOrElse(() => '')
 
-export interface CanbeTocListProps {
-  entries: TraitTocEntry[]
+const cacheContext = createContext({
+  height: new Map<string, string>()
+})
+
+export interface CanbetocListProps {
+  entries: TraitTocEntryDao[]
 }
 
 export const CanbetocItem: React.FC<{
-  entry: CanbeTocListProps['entries'][number]
-}> = ({ entry }) => {
+  entry: CanbetocListProps['entries'][number]
+  hierarchyLevel: number
+}> = memo(({ entry, hierarchyLevel }) => {
+  const cache = useContext(cacheContext)
   const className = useContext(tocClassNameContext)
-  const href = useMemo((): string => {
-    return pipe(
-      entry.getId(),
-      fold(
-        () => '#',
-        (id) => `#${id}`
-      )
-    )
-  }, [entry])
+  const id = entry.useId()
+  const [style, setStyle] = useState<any>({
+    height: cache.height.get(id) ?? '0'
+  })
 
-  const tocId = useMemo((): string | undefined => {
-    return pipe(entry.getId(), toUndefined)
-  }, [entry])
-
-  const items = useMemo((): TraitTocEntry[] => {
-    return entry.getItems()
-  }, [entry])
-
-  const text = useMemo((): string | null => {
-    return pipe(
-      entry.getTarget(),
-      map((element) => {
-        return element.textContent
-      }),
-      toNullable
-    )
-  }, [entry])
-
-  const smoothScroll = useCallback(
-    (event: React.MouseEvent<HTMLElement>) => {
-      event.preventDefault()
-
+  const elementRef = useCallback(
+    (node: HTMLLIElement | null) => {
+      const optionNode = fromNullable(node)
       pipe(
-        entry.getTarget(),
-        map((element) => {
-          element.scrollIntoView({ behavior: 'smooth' })
+        optionNode,
+        chain((element) => {
+          return sequenceT(option)(
+            some(element),
+            fromNullable(element.querySelector('a'))
+          )
+        }),
+        map(([liElement, anchorElement]) => {
+          setStyle(() => {
+            const height = String(window.getComputedStyle(liElement).lineHeight)
+
+            cache.height.set(id, height)
+            return { height }
+          })
+
+          const anchorHeight = 'data-canbetoc-toc-anchor-height'
+          if (
+            liElement.getAttribute(anchorHeight) !==
+            `${anchorElement.clientHeight}`
+          ) {
+            liElement.setAttribute(
+              anchorHeight,
+              `${anchorElement.clientHeight}`
+            )
+          }
         })
       )
     },
-    [entry]
+    [entry, cache, setStyle]
   )
-
   return (
-    <li className={className.item}>
+    <li
+      key={entry.getRandomId()}
+      ref={elementRef}
+      className={className.item}
+      style={{ ...style, overflow: 'hidden', transition: 'none' }}
+      data-canbetoc-toc-instance-id={entry.getRandomId()}
+      data-canbetoc-toc-id={id}
+      data-canbetoc-toc-hierarchy-level={hierarchyLevel}
+      data-canbetoc-toc-active-branch={false}
+      data-canbetoc-toc-active-item={false}
+      data-canbetoc-toc-latest-intersected={false}>
       <a
+        style={{ display: 'inline-block' }}
         className={className.anchor}
-        data-canbetoc-toc-id={tocId}
-        href={href}
-        onClick={smoothScroll}>
-        <span className={className.text}>{text}</span>
+        href={entry.useHref()}
+        onClick={entry.useSmoothScrollCallback()}>
+        <span className={className.text}>{entry.useText()}</span>
       </a>
-
-      {}
-
-      {items.length > 0 ? (
+      {entry.useItems().length > 0 ? (
         <ul className={className.list}>
-          {items.map((item) => {
-            return <CanbetocItem key={getKey(item.getId())} entry={item} />
+          {entry.useItems().map((item) => {
+            return (
+              <CanbetocItem
+                key={item.getRandomId()}
+                entry={item}
+                hierarchyLevel={hierarchyLevel + 1}
+              />
+            )
           })}
         </ul>
       ) : null}
     </li>
   )
-}
+})
 
-export const CanbetocList: NamedExoticComponent<CanbeTocListProps> = memo(
-  ({ entries }) => {
+export const CanbetocList: NamedExoticComponent<
+  CanbetocListProps & RefAttributes<HTMLUListElement>
+> = memo(
+  forwardRef<HTMLUListElement, CanbetocListProps>(({ entries }, ref) => {
     const className = useContext(tocClassNameContext)
+    const [cache] = useState({
+      height: new Map<string, string>()
+    })
 
     return (
-      <ul className={className.list}>
-        {entries.map((entry) => {
-          return <CanbetocItem key={getKey(entry.getId())} entry={entry} />
-        })}
-      </ul>
+      <cacheContext.Provider value={cache}>
+        <ul
+          ref={ref}
+          className={`${className.list ?? ''} react-canbetoc__toc-list--root`}>
+          {entries.map((entry) => {
+            return (
+              <CanbetocItem
+                key={entry.getRandomId()}
+                entry={entry}
+                hierarchyLevel={1}
+              />
+            )
+          })}
+        </ul>
+      </cacheContext.Provider>
     )
-  }
+  })
 )
-
-// export const CanbetocList: React.FC<CanbetocListProps> = ({ nodes }) => {
-//   const className = React.useContext(tocClassNameContext)
-
-//   return (
-//     <ul className={className.list}>
-//       {nodes.map((node) => {
-//         return <CanbetocItem key={node.getText()} node={node} />
-//       })}
-//     </ul>
-//   )
-// }

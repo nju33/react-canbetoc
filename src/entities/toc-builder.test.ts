@@ -2,10 +2,12 @@
  * @jest-environment jsdom
  */
 import { TocEntryDomAdaptor } from '../interface/toc-entry-dom-adaptor'
+import { TocListItemAdaptor } from '../interface/toc-list-item-adaptor'
 import { Selector } from './selector'
 import { TocBuilder, TraitTocBuilder } from './toc-builder'
 import { TocBuilderCommand } from './toc-builder-command'
 import { TocEntry } from './toc-entry'
+import { TocEntryService } from './toc-entry-service'
 
 describe('TocBuilder', () => {
   let tocBuilder: TraitTocBuilder
@@ -31,7 +33,11 @@ describe('TocBuilder', () => {
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     baz = document.getElementById('baz')!
 
-    tocBuilder = new TocBuilder(new TocEntryDomAdaptor())
+    tocBuilder = new TocBuilder(
+      new TocEntryDomAdaptor(),
+      new TocListItemAdaptor(),
+      new TocEntryService(new TocEntryDomAdaptor(), new TocListItemAdaptor())
+    )
 
     tocBuilder.build([
       new TocBuilderCommand(new Selector('h1', 1), [foo]),

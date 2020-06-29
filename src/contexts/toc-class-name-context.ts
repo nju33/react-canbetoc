@@ -11,8 +11,8 @@ export function createTocClasssNameValue(
   value: Partial<StructTocClassNameContext> = {}
 ): StructTocClassNameContext {
   return {
-    list: 'canbetoc-toc_list',
-    item: 'canbetoc-toc_listItem',
+    list: 'react-canbetoc__toc-list',
+    item: 'react-canbetoc__toc-list-item',
     ...value
   }
 }

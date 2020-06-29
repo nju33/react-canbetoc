@@ -2,7 +2,10 @@
 const { TsconfigPathsPlugin } = require('tsconfig-paths-webpack-plugin')
 
 module.exports = {
-  addons: ['@storybook/addon-actions/register'],
+  addons: [
+    '@storybook/addon-actions/register',
+    '@storybook/addon-knobs/register'
+  ],
   stories: ['../src/**/*.stories.tsx'],
   /**
    * @param {import('webpack').Configuration} config

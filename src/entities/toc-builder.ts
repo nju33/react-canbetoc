@@ -1,9 +1,12 @@
+import { sequenceT } from 'fp-ts/lib/Apply'
 import { last } from 'fp-ts/lib/Array'
-import { flow, pipe } from 'fp-ts/lib/function'
-import { fromNullable, map, none } from 'fp-ts/lib/Option'
+import { pipe } from 'fp-ts/lib/function'
+import { fromNullable, isSome, map, none, option } from 'fp-ts/lib/Option'
 import { TraitTocBuilderCommand } from './toc-builder-command'
 import { TocEntry, TraitTocEntry } from './toc-entry'
 import { TraitTocEntryDomAdaptor } from './toc-entry-dom-adaptor'
+import { TraitTocEntryService } from './toc-entry-service'
+import { TraitTocListItemAdaptor } from './toc-list-item-adaptor'
 
 export interface TraitTocBuilder {
   /**
@@ -21,40 +24,77 @@ export interface TraitTocBuilder {
   setHierarchy: (number: number) => void
 }
 
-export type Flowable<F extends Function> = [F, F, F, F, F, F, F, F, F]
-export type CommandFlow = Flowable<TraitTocBuilderCommand['execute']>
-
 export class TocBuilder implements TraitTocBuilder {
   #root: TraitTocEntry
   #stack: TraitTocEntry[]
   #list: TraitTocEntry[]
   #hierarchyIndex: number = 0
 
-  constructor(private readonly domAdaptor: TraitTocEntryDomAdaptor) {
-    this.#root = new TocEntry(domAdaptor, none)
+  constructor(
+    readonly domAdaptor: TraitTocEntryDomAdaptor,
+    readonly tocListItemAdaptor: TraitTocListItemAdaptor,
+    private readonly service: TraitTocEntryService
+  ) {
+    this.#root = new TocEntry(domAdaptor, tocListItemAdaptor, none)
     this.#stack = [this.#root]
     this.#list = []
   }
 
   addElements(elements: Element[]): void {
-    const optionNode = fromNullable(this.#stack[this.#hierarchyIndex])
+    const optionEntry = fromNullable(this.#stack[this.#hierarchyIndex])
 
     pipe(
-      optionNode,
-      map((node) => {
-        const items = elements.map(
-          (element) => new TocEntry(this.domAdaptor, fromNullable(element.id))
-        )
+      optionEntry,
+      map((entry) => {
+        const hierarchyLevel = this.#hierarchyIndex + 1
+        const parentItems = this.#stack.slice(0, hierarchyLevel)
+
+        const items = elements
+          .map((element) => {
+            return pipe(
+              this.service.getInstance(fromNullable(element.id)),
+              map((newEntry) => {
+                newEntry.setParentItems(parentItems)
+
+                return newEntry
+              })
+            )
+          })
+          .filter(isSome)
+          .map((someTocEntry) => {
+            const currentHash = location.hash.slice(1)
+
+            const tocEntry = someTocEntry.value
+            pipe(
+              sequenceT(option)(
+                tocEntry.getElementDataId(),
+                tocEntry.getTarget()
+              ),
+              map(([id, element]) => {
+                if (id === currentHash) {
+                  element.scrollIntoView({ behavior: 'smooth' })
+                }
+              })
+            )
+
+            return someTocEntry.value
+          })
+
+        items.forEach((currentItem) => {
+          currentItem.setSiblingItems(
+            [...items].filter((item) => item !== currentItem)
+          )
+        })
 
         this.#list.push(...items)
-        node.addItems(items)
+        entry.addItems(items)
 
         pipe(
           last(items),
           map((lastItem) => {
-            this.#stack[this.#hierarchyIndex + 1] = lastItem
+            this.#stack[hierarchyLevel] = lastItem
             // remove deep placed items  than the above
-            this.#stack.length = this.#hierarchyIndex + 2
+            this.#stack.length = hierarchyLevel + 1
           })
         )
       })
@@ -66,9 +106,11 @@ export class TocBuilder implements TraitTocBuilder {
   }
 
   build(commands: TraitTocBuilderCommand[]): void {
-    const executes = commands.map((command) => command.execute) as CommandFlow
+    const executes = commands.map((command) => command.execute)
 
-    flow(...executes)(this)
+    executes.forEach((exec) => {
+      exec(this)
+    })
   }
 
   get(): TraitTocEntry {

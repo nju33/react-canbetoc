@@ -1,0 +1,20 @@
+.react-canbetoc__toc-list {
+  font-size: var(--react-canbetoc-toc-font-size, 1rem);
+  line-height: var(--react-canbetoc-toc-line-height, 1.5);
+}
+
+.react-canbetoc__toc-list-item {
+  font-size: var(--react-canbetoc-toc-font-size, 1rem);
+  line-height: var(--react-canbetoc-toc-line-height, 1.5);
+  transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+[data-canbetoc-toc-active-branch='true'] > a,
+[data-canbetoc-toc-active-item='true'] > a {
+  color: var(--react-canbetoc-toc-color-active, #58b2dc /* SORA */);
+  transition: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.react-canbetoc__toc-list {
+  margin-left: var(--react-canbetoc-toc-indent-size, 2rem);
+}

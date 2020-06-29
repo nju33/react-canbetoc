@@ -1,5 +1,6 @@
+import { sequenceT } from 'fp-ts/lib/Apply'
 import { pipe } from 'fp-ts/lib/function'
-import { chain, mapNullable, toNullable } from 'fp-ts/lib/Option'
+import { fold, map, Option, option } from 'fp-ts/lib/Option'
 import React, { cloneElement, ReactElement, useContext, useMemo } from 'react'
 import { createPortal } from 'react-dom'
 import {
@@ -8,6 +9,7 @@ import {
   StructTocClassNameContext,
   tocClassNameContext
 } from '../contexts'
+import { TraitStrategy } from '../strategies/storategy'
 import { CanbetocList } from './CanbetocList'
 
 export interface CanbetocProps {
@@ -15,24 +17,30 @@ export interface CanbetocProps {
   id: string
   intersectionObserverInit?: IntersectionObserverInit
   selectors: string[]
+  strategy: TraitStrategy
   tocClassName?: Partial<StructTocClassNameContext>
 }
 
-export type CanbetocFC = React.FC<CanbetocProps>
+export type CanbetocFC = React.FC<Readonly<CanbetocProps>>
 
-export const Canbetoc: CanbetocFC = <Props extends CanbetocProps>(
-  props: Props
-) => {
+export const Canbetoc: CanbetocFC = <Props extends CanbetocProps>({
+  children,
+  id,
+  // The `{}` is just for the purpose to remove `undefined` type
+  intersectionObserverInit = {},
+  selectors,
+  strategy,
+  tocClassName
+}: Props) => {
   const {
-    children,
-    id,
-    // The `{}` is just for the purpose to remove `undefined` type
-    intersectionObserverInit = {},
-    selectors,
-    tocClassName
-  } = props
-  const { buildToc, getPortable, observe } = useContext(implicitContext)
-  const childRef = React.useRef<Element>(null)
+    buildToc,
+    getPortable,
+    observe,
+    observeAttribute,
+    tocEntryService
+  } = useContext(implicitContext)
+  const baseElementRef = React.useRef<Element>(null)
+  const tocBaseElementRef = React.useRef<HTMLUListElement>(null)
   const memoizedIntersectionObserverInit = useMemo(() => {
     return {
       // Default rootMargin
@@ -43,45 +51,47 @@ export const Canbetoc: CanbetocFC = <Props extends CanbetocProps>(
   }, [intersectionObserverInit])
 
   const [optionStructuredTocEntries, optionTocEntries] = buildToc.useCase(
-    childRef,
+    baseElementRef,
     selectors
   )
   const optionPortable = getPortable.useCase(id)
 
   observe.useCase(optionTocEntries, memoizedIntersectionObserverInit)
+  observeAttribute.useCase(id, tocBaseElementRef, strategy, optionTocEntries)
 
-  const expandProps = {
-    ref: childRef
-  }
-
-  const tocElement = useMemo((): ReactElement | null => {
+  const optionTocElement = useMemo((): Option<ReactElement> => {
     return pipe(
-      optionStructuredTocEntries,
-      chain((tocEntries) => {
-        return pipe(
-          optionPortable,
-          mapNullable((portable) => {
-            return createPortal(
-              <tocClassNameContext.Provider
-                value={createTocClasssNameValue(tocClassName)}>
-                <CanbetocList entries={tocEntries} />
-              </tocClassNameContext.Provider>,
-              portable
-            )
-          })
+      sequenceT(option)(optionStructuredTocEntries, optionPortable),
+      map(([tocEntries, portable]) => {
+        const entries = tocEntries.map((entry) =>
+          tocEntryService.convertToDaoFrom(entry)
         )
-      }),
-      toNullable
+
+        return createPortal(
+          <tocClassNameContext.Provider
+            value={createTocClasssNameValue(tocClassName)}>
+            <CanbetocList ref={tocBaseElementRef} entries={entries} />
+          </tocClassNameContext.Provider>,
+          portable
+        )
+      })
     )
   }, [optionStructuredTocEntries, optionPortable])
 
-  const cloned = cloneElement(children, expandProps)
-
-  return (
-    <>
-      {tocElement}
-      {cloned}
-    </>
+  const cloned = cloneElement(children, { ref: baseElementRef })
+  return pipe(
+    optionTocElement,
+    fold(
+      () => <>{cloned}</>,
+      (tocElement) => {
+        return (
+          <>
+            {tocElement}
+            {cloned}
+          </>
+        )
+      }
+    )
   )
 }
 

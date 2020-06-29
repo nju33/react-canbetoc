@@ -5,6 +5,8 @@ import { TocBuilder } from '../entities/toc-builder'
 import { generatorTocBuilderCommands } from '../entities/toc-builder-command'
 import { TraitTocEntry } from '../entities/toc-entry'
 import { TraitTocEntryDomAdaptor } from '../entities/toc-entry-dom-adaptor'
+import { TraitTocEntryService } from '../entities/toc-entry-service'
+import { TraitTocListItemAdaptor } from '../entities/toc-list-item-adaptor'
 import { TraitEvent } from './event'
 
 export type TraitBuildToc = TraitEvent<
@@ -16,7 +18,11 @@ export type TraitBuildToc = TraitEvent<
  * After did mount, fires mainly to construct a table of contents entry
  */
 export class BuildToc implements TraitBuildToc {
-  constructor(private readonly tocEntryDomAdaptor: TraitTocEntryDomAdaptor) {}
+  constructor(
+    private readonly tocEntryDomAdaptor: TraitTocEntryDomAdaptor,
+    private readonly tocListItemAdaptor: TraitTocListItemAdaptor,
+    private readonly tocEntryService: TraitTocEntryService
+  ) {}
 
   useCase(
     baseElementRef: RefObject<Element>,
@@ -25,15 +31,17 @@ export class BuildToc implements TraitBuildToc {
     const [pair, setPair] = useState<
       [Option<TraitTocEntry[]>, Option<TraitTocEntry[]>]
     >([none, none])
-    // const [entries, setEntries] = useState<Option<TraitTocEntry[]>>(none)
-
     useEffect(() => {
       const OptionbaseElement = fromNullable(baseElementRef.current)
 
       pipe(
         OptionbaseElement,
         map((baseElement) => {
-          const tocBuilder = new TocBuilder(this.tocEntryDomAdaptor)
+          const tocBuilder = new TocBuilder(
+            this.tocEntryDomAdaptor,
+            this.tocListItemAdaptor,
+            this.tocEntryService
+          )
 
           const commands = [
             ...generatorTocBuilderCommands(baseElement, selectors)
