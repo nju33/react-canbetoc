@@ -2683,10 +2683,10 @@
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-"@wdio/cli@6.1.23":
-  version "6.1.23"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.1.23.tgz#6612db5d6885cc7aa9589e485ab75c37a3a901fa"
-  integrity sha512-yruz0JuOpq+My+bjFSLNRk1oNluJYJ2N7rJAw5+EUnZBDQ+vwBobq/SqevOqwHtBcT7uKpyoUIG48UQJ3gzTRQ==
+"@wdio/cli@6.1.24":
+  version "6.1.24"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.1.24.tgz#b0ec7714aacf585cd24bcfc7f4c7e0bf2c9a5f22"
+  integrity sha512-a0gX4vK7yzXSKtF+9ya0M+hc8ZKPXvJ/LhFaDgnv8n5NNRYO1ghRzRE0O3KSh1kiHp42Z6GAuzpwkpyft3RAKQ==
   dependencies:
     "@wdio/config" "6.1.14"
     "@wdio/logger" "6.0.16"
@@ -2702,7 +2702,7 @@
     lodash.pickby "^4.6.0"
     lodash.union "^4.6.0"
     log-update "^4.0.0"
-    webdriverio "6.1.23"
+    webdriverio "6.1.24"
     yargs "^15.0.1"
     yarn-install "^1.0.0"
 
@@ -14572,10 +14572,10 @@ webdriverio@*:
     serialize-error "^7.0.0"
     webdriver "6.1.17"
 
-webdriverio@6.1.23:
-  version "6.1.23"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.1.23.tgz#04094f34e9dc709d501b1fac5b599d0195465846"
-  integrity sha512-3Zx8uWNeilOmg5wsAcFmJBoh8M38At+WD72VHMtR+h+aAjOnY0SIPSgIWu+iE0b50TtmcIZcK59iWpGoxz/SNA==
+webdriverio@6.1.24:
+  version "6.1.24"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.1.24.tgz#2e71c89050db47d592420ff285a4c7fc9e3e32ea"
+  integrity sha512-VvB4davXI2w3V63Oy6tcmAlXIWXrRP4F8IaQVU1bTMwhMKkJZ82yGaP8BgE07P8e66+0O/ZpPnHNYaaJ6Zkzcg==
   dependencies:
     "@wdio/config" "6.1.14"
     "@wdio/logger" "6.0.16"
