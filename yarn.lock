@@ -2004,10 +2004,10 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@testing-library/dom@7.21.2":
-  version "7.21.2"
-  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.21.2.tgz#8521991dcdcadc984041dea702713257b86e71d7"
-  integrity sha512-dHm2rhAW/7EeTo+C63lJe1+KUVSafHuqulI3OWLh/zlmMmcOiAIGTzRdrDnU3g8EJeRR0lKZppFFDD1r5vAZuw==
+"@testing-library/dom@7.21.3":
+  version "7.21.3"
+  resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-7.21.3.tgz#09f96d89f06fbe49654993add11822904973668c"
+  integrity sha512-dZBp+llkl3iBGnJzxITWCZV3gWmFSe8I8CwHDrVWguJnwt44m6sCjIFMk171IaNbmDgT2KKrAra7Hj/eNrpooQ==
   dependencies:
     "@babel/runtime" "^7.10.3"
     "@types/aria-query" "^4.2.0"
