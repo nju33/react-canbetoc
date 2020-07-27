@@ -1,0 +1,15 @@
+[data-canbetoc-toc-hierarchy-level='1'] > a {
+  font-weight: bold;
+  font-size: var(--react-canbetoc-toc-headin);
+}
+
+[data-canbetoc-toc-hierarchy-level='3'],
+[data-canbetoc-toc-hierarchy-level='4'],
+[data-canbetoc-toc-hierarchy-level='5'],
+[data-canbetoc-toc-hierarchy-level='6'],
+[data-canbetoc-toc-hierarchy-level='7'],
+[data-canbetoc-toc-hierarchy-level='8'],
+[data-canbetoc-toc-hierarchy-level='9'],
+[data-canbetoc-toc-hierarchy-level='10'] {
+  margin-left: var(--react-canbetoc-toc-margin-left, 0.5rem);
+}

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Canbetoc /> snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h2
+      id="foo"
+    >
+      foo
+    </h2>
+    <h3
+      id="bar"
+    >
+      bar
+    </h3>
+    <h2
+      id="baz"
+    >
+      baz
+    </h2>
+  </div>
+</DocumentFragment>
+`;

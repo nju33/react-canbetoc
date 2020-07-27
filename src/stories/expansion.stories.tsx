@@ -1,10 +1,11 @@
+import { radios, withKnobs } from '@storybook/addon-knobs'
 import faker from 'faker'
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { Canbetoc } from '..'
 import { ExpansionStrategy } from '../strategies/expansion'
 
-export default { title: 'Canbetoc' }
+export default { title: 'Canbetoc', decorators: [withKnobs] }
 
 const FakeP: React.FC = () => {
   return <p>{faker.lorem.sentences()}</p>
@@ -15,13 +16,19 @@ const strategy = new ExpansionStrategy()
 export const Expansion = (): React.ReactElement => {
   const [num, setNum] = React.useState(0)
 
+  const cssLinkHref = radios(
+    'css-theme',
+    {
+      shallow: '/src/strategies/expansion/shallow.css',
+      'text-color': '/src/strategies/expansion/text-color.css'
+    },
+    '/src/strategies/expansion/shallow.css'
+  )
+
   return (
     <>
       <Helmet>
-        <link
-          rel="stylesheet"
-          href="/src/strategies/expansion/text-color.css"
-        />
+        <link rel="stylesheet" href={cssLinkHref} />
       </Helmet>
       <div className="flex relative self-start">
         <div className="flex-none w-2/6 sticky top-0 h-0">

@@ -11,13 +11,13 @@ export class ExpansionStrategy implements TraitStrategy {
         map((element) => {
           element.style.height = ''
 
-          Array.from(element.querySelectorAll('[data-canbetoc-toc-id')).forEach(
-            (childElement) => {
-              if (childElement instanceof HTMLElement) {
-                childElement.style.height = ''
-              }
+          Array.from(
+            element.querySelectorAll('[data-canbetoc-toc-id]')
+          ).forEach((childElement) => {
+            if (childElement instanceof HTMLElement) {
+              childElement.style.height = ''
             }
-          )
+          })
         })
       )
     })

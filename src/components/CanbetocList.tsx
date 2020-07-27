@@ -8,7 +8,8 @@ import {
   option,
   some
 } from 'fp-ts/lib/Option'
-import React, {
+import * as React from 'react'
+import {
   createContext,
   forwardRef,
   memo,

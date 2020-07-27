@@ -4,6 +4,7 @@ import { chain, map, Option } from 'fp-ts/lib/Option'
 import { TraitTocEntryDomAdaptor } from './toc-entry-dom-adaptor'
 import { TraitTocListItemAdaptor } from './toc-list-item-adaptor'
 
+// TODO: 分割
 export interface TraitTocEntry {
   /**
    * 親含めて活性化する

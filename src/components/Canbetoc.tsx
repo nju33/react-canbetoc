@@ -1,7 +1,8 @@
 import { sequenceT } from 'fp-ts/lib/Apply'
 import { pipe } from 'fp-ts/lib/function'
 import { fold, map, Option, option } from 'fp-ts/lib/Option'
-import React, { cloneElement, ReactElement, useContext, useMemo } from 'react'
+import * as React from 'react'
+import { cloneElement, ReactElement, useContext, useMemo } from 'react'
 import { createPortal } from 'react-dom'
 import {
   createTocClasssNameValue,
