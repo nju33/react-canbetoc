@@ -4,10 +4,10 @@ A React component to create table of contents.
 
 ## Install
 
-It is necessary to install `react` and `react-dom` together.
+It is necessary to install `react`, `react-dom` and `fp-ts` together.
 
 ```jsx
-yarn add react react-dom react-canbetoc
+yarn add react react-dom fp-ts @nju33/react-canbetoc
 ```
 
 ## Example
@@ -27,8 +27,7 @@ return (
       // You can specify a selectors roughly
       // They have the priority that younger the index number
       selectors={['h2', 'h3', 'h4', 'h5']}
-      strategy={strategy}
-    >
+      strategy={strategy}>
       <article>
         <header>...</header>
 
@@ -62,5 +61,4 @@ return (
     </Canbetoc>
   </>
 )
-
 ```

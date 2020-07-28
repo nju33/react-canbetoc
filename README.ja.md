@@ -4,10 +4,10 @@
 
 ## Install
 
-`react`と`react-dom`と一緒にインストールが必要です。
+`react`と`react-dom`、`fp-ts`と一緒にインストールが必要です。
 
 ```jsx
-yarn add react react-dom react-canbetoc
+yarn add react react-dom fp-ts @nju33/react-canbetoc
 ```
 
 ## Example
@@ -19,7 +19,6 @@ import { CollapseStrategy } from 'react-canbetoc/strategies/collapse'
 
 const strategy = new CollapseStrategy()
 
-
 // ---
 
 return (
@@ -30,8 +29,7 @@ return (
       // 目次となる大雑把なセレクターを指定します
       // インデックスが若いほど大きい目次として扱われます
       selectors={['h2', 'h3', 'h4', 'h5']}
-      strategy={strategy}
-    >
+      strategy={strategy}>
       <article>
         <header>...</header>
 
@@ -53,9 +51,9 @@ return (
           <p>...</p>
 
           {/*
-            マークアップは必ずプロパティで指定したセレクターの順番にする必要があります
-            以下の場合、`h3`が飛ばされている為`h4`は目次に現れません
-        */}
+              マークアップは必ずプロパティで指定したセレクターの順番にする必要があります
+              以下の場合、`h3`が飛ばされている為`h4`は目次に現れません
+          */}
           <h2 id="...">...</h2>
           <h4 id="...">...</h4>
         </div>
@@ -65,5 +63,4 @@ return (
     </Canbetoc>
   </>
 )
-
 ```
