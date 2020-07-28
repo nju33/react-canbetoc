@@ -161,7 +161,7 @@ export class TocListItemAdaptor implements TraitTocListItemAdaptor {
       throw new Error('data anchor height is not found')
     }
 
-    const onBoth = (element: HTMLElement, anchorHeight: number): number => {
+    const onBoth = (element: HTMLElement, _anchorHeight: number): number => {
       const anchors: readonly Element[] = Array.from(
         element.querySelectorAll('[data-canbetoc-toc-id] > a')
       )
