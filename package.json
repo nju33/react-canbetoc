@@ -9,11 +9,11 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "author": "nju33 <nju33.ki@gmail.com>",
-  "main": "index.js",
-  "umd:main": "index.umd.js",
-  "types": "index.d.ts",
-  "module": "index.m.js",
-  "esmodule": "index.modern.js",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.m.js",
+  "esmodule": "dist/index.modern.js",
   "source": "src/index.ts",
   "files": [
     "*/*.map",
@@ -29,7 +29,7 @@
     "dev": "start-storybook --port 33817 --static-dir ./",
     "build-storybook": "build-storybook -c .storybook -o .out",
     "test": "jest --config jest.config.js",
-    "ci:build": "[ \"$CI\" = 'true' ] && yarn microbundle --tsconfig tsconfig.build.json --jsx 'React.createElement' || :",
+    "ci:build": "[ \"$CI\" = 'true' ] && yarn microbundle --tsconfig tsconfig.build.json --jsx 'React.createElement' --format modern,es,cjs || :",
     "ci:copy-css": "[ \"$CI\" = 'true' ] && cp src/strategies/collapse/*.css strategies/collapse/ && cp src/strategies/expansion/*.css strategies/expansion/ || :",
     "ci:gen-src-docs": "typedoc --plugin typedoc-plugin-markdown --out docs src",
     "ci:test": "jest --config jest.config.js --collectCoverage"
