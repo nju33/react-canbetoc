@@ -16,12 +16,9 @@
   "esmodule": "index.modern.js",
   "source": "src/index.ts",
   "files": [
-    "strategies",
     "*.map",
     "*.js",
-    "*.d.ts",
-    "!.*rc.js",
-    "!*.config.js"
+    "*.d.ts"
   ],
   "license": "MIT",
   "scripts": {
@@ -32,6 +29,7 @@
     "build-storybook": "build-storybook -c .storybook -o .out",
     "test": "jest --config jest.config.js",
     "ci:build": "[ \"$CI\" = 'true' ] && yarn microbundle --tsconfig tsconfig.build.json --jsx 'React.createElement' || :",
+    "ci:copy-css": "[ \"$CI\" = 'true' ] && cp src/strategies/collapse/*.css strategies/collapse/ && cp src/strategies/expansion/*.css strategies/expansion/ || :",
     "ci:gen-src-docs": "typedoc --plugin typedoc-plugin-markdown --out docs src",
     "ci:test": "jest --config jest.config.js --collectCoverage"
   },

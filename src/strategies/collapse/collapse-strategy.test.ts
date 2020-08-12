@@ -5,7 +5,7 @@ import '@testing-library/jest-dom'
 import { getApplySemigroup, Option, some } from 'fp-ts/lib/Option'
 import { semigroupSum } from 'fp-ts/lib/Semigroup'
 import { TraitTocEntry } from '../../entities/toc-entry'
-import { TraitStrategy } from '../storategy'
+import { TraitStrategy } from '../strategy'
 import { CollapseStrategy } from './collapse-strategy'
 
 class MockActiveTocEntry implements TraitTocEntry {

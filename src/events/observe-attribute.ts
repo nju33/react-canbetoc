@@ -6,7 +6,7 @@ import { RefObject, useEffect } from 'react'
 import { TraitMutationObserverAdaptor } from '../entities/mutation-observer-adaptor'
 import { TraitTocEntry } from '../entities/toc-entry'
 import { TraitTocEntryService } from '../entities/toc-entry-service'
-import { TraitStrategy } from '../strategies/storategy'
+import { TraitStrategy } from '../strategies/strategy'
 import { TraitEvent } from './event'
 
 export type TraitObserveAttribute = TraitEvent<

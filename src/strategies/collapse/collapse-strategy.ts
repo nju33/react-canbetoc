@@ -16,7 +16,7 @@ import {
 import { delay, Task } from 'fp-ts/lib/Task'
 import { debounce } from 'throttle-debounce'
 import { TraitTocEntry } from '../../entities'
-import { TraitStrategy } from '../storategy'
+import { TraitStrategy } from '../strategy'
 
 export class CollapseStrategy implements TraitStrategy {
   private readonly groupByHierarchyLevel = groupBy((tocEntry: TraitTocEntry) =>

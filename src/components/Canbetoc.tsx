@@ -10,7 +10,7 @@ import {
   StructTocClassNameContext,
   tocClassNameContext
 } from '../contexts'
-import { TraitStrategy } from '../strategies/storategy'
+import { TraitStrategy } from '../strategies/strategy'
 import { CanbetocList } from './CanbetocList'
 
 export interface CanbetocProps {
