@@ -28,7 +28,7 @@
 
 ▸ **findElementById**(`id`: string): *Option‹HTMLElement›*
 
-*Defined in [src/interface/toc-entry-dom-adaptor.ts:6](https://github.com/nju33/react-canbetoc/blob/1769b57/src/interface/toc-entry-dom-adaptor.ts#L6)*
+*Defined in [src/interface/toc-entry-dom-adaptor.ts:6](https://github.com/nju33/react-canbetoc/blob/a20943a/src/interface/toc-entry-dom-adaptor.ts#L6)*
 
 **Parameters:**
 
@@ -44,7 +44,7 @@ ___
 
 ▸ **findTargetById**(`id`: string): *Option‹HTMLElement›*
 
-*Defined in [src/interface/toc-entry-dom-adaptor.ts:65](https://github.com/nju33/react-canbetoc/blob/1769b57/src/interface/toc-entry-dom-adaptor.ts#L65)*
+*Defined in [src/interface/toc-entry-dom-adaptor.ts:65](https://github.com/nju33/react-canbetoc/blob/a20943a/src/interface/toc-entry-dom-adaptor.ts#L65)*
 
 **Parameters:**
 
@@ -60,7 +60,7 @@ ___
 
 ▸ **getDataCanbetocTocActiveBranchFrom**(`element`: Element): *boolean*
 
-*Defined in [src/interface/toc-entry-dom-adaptor.ts:12](https://github.com/nju33/react-canbetoc/blob/1769b57/src/interface/toc-entry-dom-adaptor.ts#L12)*
+*Defined in [src/interface/toc-entry-dom-adaptor.ts:12](https://github.com/nju33/react-canbetoc/blob/a20943a/src/interface/toc-entry-dom-adaptor.ts#L12)*
 
 **Parameters:**
 
@@ -76,7 +76,7 @@ ___
 
 ▸ **getDataCanbetocTocActiveItemFrom**(`element`: Element): *boolean*
 
-*Defined in [src/interface/toc-entry-dom-adaptor.ts:24](https://github.com/nju33/react-canbetoc/blob/1769b57/src/interface/toc-entry-dom-adaptor.ts#L24)*
+*Defined in [src/interface/toc-entry-dom-adaptor.ts:24](https://github.com/nju33/react-canbetoc/blob/a20943a/src/interface/toc-entry-dom-adaptor.ts#L24)*
 
 **Parameters:**
 
@@ -92,7 +92,7 @@ ___
 
 ▸ **getHierarchyLevelFrom**(`element`: Element): *Option‹number›*
 
-*Defined in [src/interface/toc-entry-dom-adaptor.ts:36](https://github.com/nju33/react-canbetoc/blob/1769b57/src/interface/toc-entry-dom-adaptor.ts#L36)*
+*Defined in [src/interface/toc-entry-dom-adaptor.ts:36](https://github.com/nju33/react-canbetoc/blob/a20943a/src/interface/toc-entry-dom-adaptor.ts#L36)*
 
 **Parameters:**
 
@@ -108,7 +108,7 @@ ___
 
 ▸ **getIdFrom**(`element`: Element): *Option‹string›*
 
-*Defined in [src/interface/toc-entry-dom-adaptor.ts:55](https://github.com/nju33/react-canbetoc/blob/1769b57/src/interface/toc-entry-dom-adaptor.ts#L55)*
+*Defined in [src/interface/toc-entry-dom-adaptor.ts:55](https://github.com/nju33/react-canbetoc/blob/a20943a/src/interface/toc-entry-dom-adaptor.ts#L55)*
 
 **Parameters:**
 
@@ -124,7 +124,7 @@ ___
 
 ▸ **update**(`element`: Element, `data`: object): *void*
 
-*Defined in [src/interface/toc-entry-dom-adaptor.ts:69](https://github.com/nju33/react-canbetoc/blob/1769b57/src/interface/toc-entry-dom-adaptor.ts#L69)*
+*Defined in [src/interface/toc-entry-dom-adaptor.ts:69](https://github.com/nju33/react-canbetoc/blob/a20943a/src/interface/toc-entry-dom-adaptor.ts#L69)*
 
 **Parameters:**
 

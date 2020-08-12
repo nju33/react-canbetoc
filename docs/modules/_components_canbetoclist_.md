@@ -97,7 +97,7 @@
   )
 })
 
-*Defined in [src/components/CanbetocList.tsx:35](https://github.com/nju33/react-canbetoc/blob/1769b57/src/components/CanbetocList.tsx#L35)*
+*Defined in [src/components/CanbetocList.tsx:35](https://github.com/nju33/react-canbetoc/blob/a20943a/src/components/CanbetocList.tsx#L35)*
 
 ___
 
@@ -130,7 +130,7 @@ ___
   })
 )
 
-*Defined in [src/components/CanbetocList.tsx:116](https://github.com/nju33/react-canbetoc/blob/1769b57/src/components/CanbetocList.tsx#L116)*
+*Defined in [src/components/CanbetocList.tsx:116](https://github.com/nju33/react-canbetoc/blob/a20943a/src/components/CanbetocList.tsx#L116)*
 
 ___
 
@@ -140,7 +140,7 @@ ___
   height: new Map<string, string>()
 })
 
-*Defined in [src/components/CanbetocList.tsx:27](https://github.com/nju33/react-canbetoc/blob/1769b57/src/components/CanbetocList.tsx#L27)*
+*Defined in [src/components/CanbetocList.tsx:27](https://github.com/nju33/react-canbetoc/blob/a20943a/src/components/CanbetocList.tsx#L27)*
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 • **getKey**: *function* = getOrElse(() => '')
 
-*Defined in [src/components/CanbetocList.tsx:25](https://github.com/nju33/react-canbetoc/blob/1769b57/src/components/CanbetocList.tsx#L25)*
+*Defined in [src/components/CanbetocList.tsx:25](https://github.com/nju33/react-canbetoc/blob/a20943a/src/components/CanbetocList.tsx#L25)*
 
 #### Type declaration:
 

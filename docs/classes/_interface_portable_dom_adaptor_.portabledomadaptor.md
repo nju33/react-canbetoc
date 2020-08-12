@@ -22,7 +22,7 @@
 
 ▸ **findById**(`id`: string): *Option‹Element›*
 
-*Defined in [src/interface/portable-dom-adaptor.ts:8](https://github.com/nju33/react-canbetoc/blob/1769b57/src/interface/portable-dom-adaptor.ts#L8)*
+*Defined in [src/interface/portable-dom-adaptor.ts:8](https://github.com/nju33/react-canbetoc/blob/a20943a/src/interface/portable-dom-adaptor.ts#L8)*
 
 **Parameters:**
 

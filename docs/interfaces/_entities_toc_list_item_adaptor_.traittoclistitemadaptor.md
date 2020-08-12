@@ -29,7 +29,7 @@
 
 • **getActiveBranch**: *function*
 
-*Defined in [src/entities/toc-list-item-adaptor.ts:4](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-list-item-adaptor.ts#L4)*
+*Defined in [src/entities/toc-list-item-adaptor.ts:4](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-list-item-adaptor.ts#L4)*
 
 #### Type declaration:
 
@@ -47,7 +47,7 @@ ___
 
 • **getActiveItem**: *function*
 
-*Defined in [src/entities/toc-list-item-adaptor.ts:5](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-list-item-adaptor.ts#L5)*
+*Defined in [src/entities/toc-list-item-adaptor.ts:5](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-list-item-adaptor.ts#L5)*
 
 #### Type declaration:
 
@@ -65,7 +65,7 @@ ___
 
 • **getAnchorHeight**: *function*
 
-*Defined in [src/entities/toc-list-item-adaptor.ts:6](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-list-item-adaptor.ts#L6)*
+*Defined in [src/entities/toc-list-item-adaptor.ts:6](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-list-item-adaptor.ts#L6)*
 
 #### Type declaration:
 
@@ -83,7 +83,7 @@ ___
 
 • **getHeight**: *function*
 
-*Defined in [src/entities/toc-list-item-adaptor.ts:7](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-list-item-adaptor.ts#L7)*
+*Defined in [src/entities/toc-list-item-adaptor.ts:7](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-list-item-adaptor.ts#L7)*
 
 #### Type declaration:
 
@@ -105,7 +105,7 @@ ___
 
 • **getHeightFull**: *function*
 
-*Defined in [src/entities/toc-list-item-adaptor.ts:11](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-list-item-adaptor.ts#L11)*
+*Defined in [src/entities/toc-list-item-adaptor.ts:11](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-list-item-adaptor.ts#L11)*
 
 #### Type declaration:
 
@@ -123,7 +123,7 @@ ___
 
 • **getHierarchyLevel**: *function*
 
-*Defined in [src/entities/toc-list-item-adaptor.ts:12](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-list-item-adaptor.ts#L12)*
+*Defined in [src/entities/toc-list-item-adaptor.ts:12](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-list-item-adaptor.ts#L12)*
 
 #### Type declaration:
 
@@ -141,7 +141,7 @@ ___
 
 • **getId**: *function*
 
-*Defined in [src/entities/toc-list-item-adaptor.ts:13](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-list-item-adaptor.ts#L13)*
+*Defined in [src/entities/toc-list-item-adaptor.ts:13](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-list-item-adaptor.ts#L13)*
 
 #### Type declaration:
 
@@ -159,7 +159,7 @@ ___
 
 • **getLatestIntersected**: *function*
 
-*Defined in [src/entities/toc-list-item-adaptor.ts:14](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-list-item-adaptor.ts#L14)*
+*Defined in [src/entities/toc-list-item-adaptor.ts:14](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-list-item-adaptor.ts#L14)*
 
 #### Type declaration:
 

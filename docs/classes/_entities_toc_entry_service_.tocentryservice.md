@@ -34,7 +34,7 @@
 
 \+ **new TocEntryService**(`domAdaptor`: [TraitTocEntryDomAdaptor](../interfaces/_entities_toc_entry_dom_adaptor_.traittocentrydomadaptor.md), `tocListItemAdaptor`: [TraitTocListItemAdaptor](../interfaces/_entities_toc_list_item_adaptor_.traittoclistitemadaptor.md)): *[TocEntryService](_entities_toc_entry_service_.tocentryservice.md)*
 
-*Defined in [src/entities/toc-entry-service.ts:18](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry-service.ts#L18)*
+*Defined in [src/entities/toc-entry-service.ts:18](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-entry-service.ts#L18)*
 
 **Parameters:**
 
@@ -51,7 +51,7 @@ Name | Type |
 
 • **#daoMap**: *WeakMap‹[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md), [TraitTocEntryDao](../interfaces/_entities_toc_entry_dao_.traittocentrydao.md)›* = new WeakMap<TraitTocEntry, TraitTocEntryDao>()
 
-*Defined in [src/entities/toc-entry-service.ts:18](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry-service.ts#L18)*
+*Defined in [src/entities/toc-entry-service.ts:18](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-entry-service.ts#L18)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **#tocEntryMap**: *Map‹string, [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)›* = new Map<string, TraitTocEntry>()
 
-*Defined in [src/entities/toc-entry-service.ts:17](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry-service.ts#L17)*
+*Defined in [src/entities/toc-entry-service.ts:17](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-entry-service.ts#L17)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • **domAdaptor**: *[TraitTocEntryDomAdaptor](../interfaces/_entities_toc_entry_dom_adaptor_.traittocentrydomadaptor.md)*
 
-*Defined in [src/entities/toc-entry-service.ts:21](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry-service.ts#L21)*
+*Defined in [src/entities/toc-entry-service.ts:21](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-entry-service.ts#L21)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • **tocListItemAdaptor**: *[TraitTocListItemAdaptor](../interfaces/_entities_toc_list_item_adaptor_.traittoclistitemadaptor.md)*
 
-*Defined in [src/entities/toc-entry-service.ts:22](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry-service.ts#L22)*
+*Defined in [src/entities/toc-entry-service.ts:22](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-entry-service.ts#L22)*
 
 ## Methods
 
@@ -83,7 +83,7 @@ ___
 
 ▸ **convertToDaoFrom**(`tocEntry`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)): *[TraitTocEntryDao](../interfaces/_entities_toc_entry_dao_.traittocentrydao.md)*
 
-*Defined in [src/entities/toc-entry-service.ts:45](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry-service.ts#L45)*
+*Defined in [src/entities/toc-entry-service.ts:45](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-entry-service.ts#L45)*
 
 **Parameters:**
 
@@ -99,7 +99,7 @@ ___
 
 ▸ **getInstance**(`optionId`: Option‹string›): *Option‹[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)›*
 
-*Defined in [src/entities/toc-entry-service.ts:25](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry-service.ts#L25)*
+*Defined in [src/entities/toc-entry-service.ts:25](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-entry-service.ts#L25)*
 
 **Parameters:**
 
