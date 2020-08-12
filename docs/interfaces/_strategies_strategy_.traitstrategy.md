@@ -1,4 +1,4 @@
-[@nju33/react-canbetoc](../README.md) › [Globals](../globals.md) › ["strategies/storategy"](../modules/_strategies_storategy_.md) › [TraitStrategy](_strategies_storategy_.traitstrategy.md)
+[@nju33/react-canbetoc](../README.md) › [Globals](../globals.md) › ["strategies/strategy"](../modules/_strategies_strategy_.md) › [TraitStrategy](_strategies_strategy_.traitstrategy.md)
 
 # Interface: TraitStrategy
 
@@ -15,7 +15,7 @@
 
 ### Properties
 
-* [handle](_strategies_storategy_.traitstrategy.md#handle)
+* [handle](_strategies_strategy_.traitstrategy.md#handle)
 
 ## Properties
 
@@ -23,7 +23,7 @@
 
 • **handle**: *function*
 
-*Defined in [src/strategies/storategy.ts:4](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/storategy.ts#L4)*
+*Defined in [src/strategies/strategy.ts:4](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/strategy.ts#L4)*
 
 #### Type declaration:
 

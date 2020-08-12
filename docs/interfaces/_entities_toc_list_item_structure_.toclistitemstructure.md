@@ -18,4 +18,4 @@
 
 • **height**: *number | "auto"*
 
-*Defined in [src/entities/toc-list-item-structure.ts:2](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/entities/toc-list-item-structure.ts#L2)*
+*Defined in [src/entities/toc-list-item-structure.ts:2](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-list-item-structure.ts#L2)*

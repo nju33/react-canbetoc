@@ -33,7 +33,7 @@
 
 \+ **new ObserveAttribute**(`mutationObserverAdaptor`: [TraitMutationObserverAdaptor](../interfaces/_entities_mutation_observer_adaptor_.traitmutationobserveradaptor.md), `tocEntryService`: [TraitTocEntryService](../interfaces/_entities_toc_entry_service_.traittocentryservice.md)): *[ObserveAttribute](_events_observe_attribute_.observeattribute.md)*
 
-*Defined in [src/events/observe-attribute.ts:37](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/events/observe-attribute.ts#L37)*
+*Defined in [src/events/observe-attribute.ts:37](https://github.com/nju33/react-canbetoc/blob/d80673d/src/events/observe-attribute.ts#L37)*
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ Name | Type |
 
 • **mutationObserverAdaptor**: *[TraitMutationObserverAdaptor](../interfaces/_entities_mutation_observer_adaptor_.traitmutationobserveradaptor.md)*
 
-*Defined in [src/events/observe-attribute.ts:39](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/events/observe-attribute.ts#L39)*
+*Defined in [src/events/observe-attribute.ts:39](https://github.com/nju33/react-canbetoc/blob/d80673d/src/events/observe-attribute.ts#L39)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **tocEntryService**: *[TraitTocEntryService](../interfaces/_entities_toc_entry_service_.traittocentryservice.md)*
 
-*Defined in [src/events/observe-attribute.ts:40](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/events/observe-attribute.ts#L40)*
+*Defined in [src/events/observe-attribute.ts:40](https://github.com/nju33/react-canbetoc/blob/d80673d/src/events/observe-attribute.ts#L40)*
 
 ## Methods
 
@@ -66,7 +66,7 @@ ___
 
 ▸ **getRelatedTocEntries**(`tocEntries`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
-*Defined in [src/events/observe-attribute.ts:49](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/events/observe-attribute.ts#L49)*
+*Defined in [src/events/observe-attribute.ts:49](https://github.com/nju33/react-canbetoc/blob/d80673d/src/events/observe-attribute.ts#L49)*
 
 **Parameters:**
 
@@ -82,7 +82,7 @@ ___
 
 ▸ **getTocEntryByTocElement**(`tocElement`: Element): *Option‹[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)›*
 
-*Defined in [src/events/observe-attribute.ts:43](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/events/observe-attribute.ts#L43)*
+*Defined in [src/events/observe-attribute.ts:43](https://github.com/nju33/react-canbetoc/blob/d80673d/src/events/observe-attribute.ts#L43)*
 
 **Parameters:**
 
@@ -96,9 +96,9 @@ ___
 
 ###  useCase
 
-▸ **useCase**(`id`: string, `tocBaseElementRef`: RefObject‹Element›, `strategy`: [TraitStrategy](../interfaces/_strategies_storategy_.traitstrategy.md), `optionTocEntries`: Option‹[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]›): *void*
+▸ **useCase**(`id`: string, `tocBaseElementRef`: RefObject‹Element›, `strategy`: [TraitStrategy](../interfaces/_strategies_strategy_.traitstrategy.md), `optionTocEntries`: Option‹[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]›): *void*
 
-*Defined in [src/events/observe-attribute.ts:57](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/events/observe-attribute.ts#L57)*
+*Defined in [src/events/observe-attribute.ts:57](https://github.com/nju33/react-canbetoc/blob/d80673d/src/events/observe-attribute.ts#L57)*
 
 **Parameters:**
 
@@ -106,7 +106,7 @@ Name | Type |
 ------ | ------ |
 `id` | string |
 `tocBaseElementRef` | RefObject‹Element› |
-`strategy` | [TraitStrategy](../interfaces/_strategies_storategy_.traitstrategy.md) |
+`strategy` | [TraitStrategy](../interfaces/_strategies_strategy_.traitstrategy.md) |
 `optionTocEntries` | Option‹[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]› |
 
 **Returns:** *void*

@@ -32,7 +32,7 @@
 
 • **#map**: *Map‹string, MutationObserver›* = new Map()
 
-*Defined in [src/interface/mutation-observer-adaptor.ts:7](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/interface/mutation-observer-adaptor.ts#L7)*
+*Defined in [src/interface/mutation-observer-adaptor.ts:7](https://github.com/nju33/react-canbetoc/blob/d80673d/src/interface/mutation-observer-adaptor.ts#L7)*
 
 ## Methods
 
@@ -40,7 +40,7 @@
 
 ▸ **disconnect**(`id`: string): *void*
 
-*Defined in [src/interface/mutation-observer-adaptor.ts:34](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/interface/mutation-observer-adaptor.ts#L34)*
+*Defined in [src/interface/mutation-observer-adaptor.ts:34](https://github.com/nju33/react-canbetoc/blob/d80673d/src/interface/mutation-observer-adaptor.ts#L34)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ ___
 
 ▸ **init**(`id`: string, `callback`: MutationCallback): *void*
 
-*Defined in [src/interface/mutation-observer-adaptor.ts:20](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/interface/mutation-observer-adaptor.ts#L20)*
+*Defined in [src/interface/mutation-observer-adaptor.ts:20](https://github.com/nju33/react-canbetoc/blob/d80673d/src/interface/mutation-observer-adaptor.ts#L20)*
 
 **Parameters:**
 
@@ -73,7 +73,7 @@ ___
 
 ▸ **observe**(`id`: string, `baseElement`: Element): *void*
 
-*Defined in [src/interface/mutation-observer-adaptor.ts:45](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/interface/mutation-observer-adaptor.ts#L45)*
+*Defined in [src/interface/mutation-observer-adaptor.ts:45](https://github.com/nju33/react-canbetoc/blob/d80673d/src/interface/mutation-observer-adaptor.ts#L45)*
 
 **Parameters:**
 
@@ -90,7 +90,7 @@ Name | Type |
 
 ### ▪ **mutationObserverInit**: *object*
 
-*Defined in [src/interface/mutation-observer-adaptor.ts:9](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/interface/mutation-observer-adaptor.ts#L9)*
+*Defined in [src/interface/mutation-observer-adaptor.ts:9](https://github.com/nju33/react-canbetoc/blob/d80673d/src/interface/mutation-observer-adaptor.ts#L9)*
 
 ###  attributeFilter
 
@@ -100,22 +100,22 @@ Name | Type |
       'data-canbetoc-toc-active-item'
     ]
 
-*Defined in [src/interface/mutation-observer-adaptor.ts:13](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/interface/mutation-observer-adaptor.ts#L13)*
+*Defined in [src/interface/mutation-observer-adaptor.ts:13](https://github.com/nju33/react-canbetoc/blob/d80673d/src/interface/mutation-observer-adaptor.ts#L13)*
 
 ###  attributes
 
 • **attributes**: *true* = true
 
-*Defined in [src/interface/mutation-observer-adaptor.ts:12](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/interface/mutation-observer-adaptor.ts#L12)*
+*Defined in [src/interface/mutation-observer-adaptor.ts:12](https://github.com/nju33/react-canbetoc/blob/d80673d/src/interface/mutation-observer-adaptor.ts#L12)*
 
 ###  childList
 
 • **childList**: *true* = true
 
-*Defined in [src/interface/mutation-observer-adaptor.ts:11](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/interface/mutation-observer-adaptor.ts#L11)*
+*Defined in [src/interface/mutation-observer-adaptor.ts:11](https://github.com/nju33/react-canbetoc/blob/d80673d/src/interface/mutation-observer-adaptor.ts#L11)*
 
 ###  subtree
 
 • **subtree**: *true* = true
 
-*Defined in [src/interface/mutation-observer-adaptor.ts:10](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/interface/mutation-observer-adaptor.ts#L10)*
+*Defined in [src/interface/mutation-observer-adaptor.ts:10](https://github.com/nju33/react-canbetoc/blob/d80673d/src/interface/mutation-observer-adaptor.ts#L10)*

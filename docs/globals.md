@@ -51,7 +51,7 @@
 * ["strategies/collapse/index"](modules/_strategies_collapse_index_.md)
 * ["strategies/expansion/expansion-strategy"](modules/_strategies_expansion_expansion_strategy_.md)
 * ["strategies/expansion/index"](modules/_strategies_expansion_index_.md)
-* ["strategies/storategy"](modules/_strategies_storategy_.md)
+* ["strategies/strategy"](modules/_strategies_strategy_.md)
 * ["utils/_internal"](modules/_utils__internal_.md)
 * ["utils/element"](modules/_utils_element_.md)
 * ["utils/index"](modules/_utils_index_.md)

@@ -21,7 +21,7 @@
 
 • **anchor**? : *undefined | string*
 
-*Defined in [src/contexts/toc-class-name-context.ts:4](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/contexts/toc-class-name-context.ts#L4)*
+*Defined in [src/contexts/toc-class-name-context.ts:4](https://github.com/nju33/react-canbetoc/blob/d80673d/src/contexts/toc-class-name-context.ts#L4)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **item**? : *undefined | string*
 
-*Defined in [src/contexts/toc-class-name-context.ts:5](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/contexts/toc-class-name-context.ts#L5)*
+*Defined in [src/contexts/toc-class-name-context.ts:5](https://github.com/nju33/react-canbetoc/blob/d80673d/src/contexts/toc-class-name-context.ts#L5)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **list**? : *undefined | string*
 
-*Defined in [src/contexts/toc-class-name-context.ts:6](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/contexts/toc-class-name-context.ts#L6)*
+*Defined in [src/contexts/toc-class-name-context.ts:6](https://github.com/nju33/react-canbetoc/blob/d80673d/src/contexts/toc-class-name-context.ts#L6)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **text**? : *undefined | string*
 
-*Defined in [src/contexts/toc-class-name-context.ts:7](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/contexts/toc-class-name-context.ts#L7)*
+*Defined in [src/contexts/toc-class-name-context.ts:7](https://github.com/nju33/react-canbetoc/blob/d80673d/src/contexts/toc-class-name-context.ts#L7)*

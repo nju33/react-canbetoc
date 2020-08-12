@@ -8,7 +8,7 @@
 
 ## Implements
 
-* [TraitStrategy](../interfaces/_strategies_storategy_.traitstrategy.md)
+* [TraitStrategy](../interfaces/_strategies_strategy_.traitstrategy.md)
 
 ## Index
 
@@ -39,7 +39,7 @@
 
 • **delay50**: *function* = delay(50)
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:26](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L26)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:26](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L26)*
 
 #### Type declaration:
 
@@ -63,11 +63,15 @@ ___
     String((tocEntry.getElementDataHierarcyLevel() as Some<number>).value)
   )
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:22](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L22)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:22](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L22)*
 
 #### Type declaration:
 
-▸ (`as`: Array‹A›): *Record‹string, NonEmptyArray‹A››*
+▸ ‹**A**›(`as`: Array‹A›): *Record‹string, NonEmptyArray‹A››*
+
+**Type parameters:**
+
+▪ **A**: *B*
 
 **Parameters:**
 
@@ -79,7 +83,7 @@ ___
 
 ### `Readonly` handle
 
-• **handle**: *(Anonymous function) & Cancel* = debounce(
+• **handle**: *throttle‹(Anonymous function)›* = debounce(
     200,
     async (tocEntries: TraitTocEntry[]): Promise<void> => {
       flow(
@@ -91,9 +95,9 @@ ___
     }
   )
 
-*Implementation of [TraitStrategy](../interfaces/_strategies_storategy_.traitstrategy.md).[handle](../interfaces/_strategies_storategy_.traitstrategy.md#handle)*
+*Implementation of [TraitStrategy](../interfaces/_strategies_strategy_.traitstrategy.md).[handle](../interfaces/_strategies_strategy_.traitstrategy.md#handle)*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:188](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L188)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:188](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L188)*
 
 ## Methods
 
@@ -101,7 +105,7 @@ ___
 
 ▸ **construct**(`tocEntries`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *Task‹void›*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:158](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L158)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:158](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L158)*
 
 **Parameters:**
 
@@ -117,7 +121,7 @@ ___
 
 ▸ **getGroupedListByDesc**(`tocEntries`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *keyof TraitTocEntry[][]*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:28](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L28)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:28](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L28)*
 
 **Parameters:**
 
@@ -133,7 +137,7 @@ ___
 
 ▸ **getRealHeightAsData**(`element`: Element): *Option‹number›*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:90](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L90)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:90](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L90)*
 
 **Parameters:**
 
@@ -149,7 +153,7 @@ ___
 
 ▸ **hardenWithAElementHeight**(`tocEntries`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *IO‹void›*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:122](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L122)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:122](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L122)*
 
 **Parameters:**
 
@@ -165,7 +169,7 @@ ___
 
 ▸ **isAuto**(`value`: string): *boolean*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:34](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L34)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:34](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L34)*
 
 **Parameters:**
 
@@ -181,7 +185,7 @@ ___
 
 ▸ **isDirectlyBelowTheActiveItem**(`entry`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md), `activeItemHierarchyLevel`: number): *boolean*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:38](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L38)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:38](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L38)*
 
 **Parameters:**
 
@@ -198,7 +202,7 @@ ___
 
 ▸ **modifyStyle**(`tocEntries`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *IO‹void›*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:109](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L109)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:109](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L109)*
 
 **Parameters:**
 
@@ -214,7 +218,7 @@ ___
 
 ▸ **removeDataRealHeightFrom**(`element`: Element): *void*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:105](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L105)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:105](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L105)*
 
 **Parameters:**
 
@@ -230,7 +234,7 @@ ___
 
 ▸ **setElementHeightToAuto**(`entry`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)): *void*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:65](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L65)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:65](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L65)*
 
 **Parameters:**
 
@@ -246,7 +250,7 @@ ___
 
 ▸ **setElementHeightToCurrentHeight**(`entry`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)): *void*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:74](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L74)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:74](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L74)*
 
 **Parameters:**
 
@@ -262,7 +266,7 @@ ___
 
 ▸ **setElementHeightToTheAnchorHeight**(`entry`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)): *void*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:56](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L56)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:56](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L56)*
 
 **Parameters:**
 
@@ -278,7 +282,7 @@ ___
 
 ▸ **setRealHeightAsData**(`element`: Element, `height`: number): *void*
 
-*Defined in [src/strategies/collapse/collapse-strategy.ts:86](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/collapse/collapse-strategy.ts#L86)*
+*Defined in [src/strategies/collapse/collapse-strategy.ts:86](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/collapse/collapse-strategy.ts#L86)*
 
 **Parameters:**
 

@@ -22,7 +22,7 @@
 
 Ƭ **CanbetocFC**: *React.FC‹Readonly‹[CanbetocProps](../interfaces/_components_canbetoc_.canbetocprops.md)››*
 
-*Defined in [src/components/Canbetoc.tsx:25](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/components/Canbetoc.tsx#L25)*
+*Defined in [src/components/Canbetoc.tsx:25](https://github.com/nju33/react-canbetoc/blob/d80673d/src/components/Canbetoc.tsx#L25)*
 
 ## Functions
 
@@ -30,7 +30,7 @@
 
 ▸ **Canbetoc**‹**Props**›(`__namedParameters`: object): *Element‹›*
 
-*Defined in [src/components/Canbetoc.tsx:27](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/components/Canbetoc.tsx#L27)*
+*Defined in [src/components/Canbetoc.tsx:27](https://github.com/nju33/react-canbetoc/blob/d80673d/src/components/Canbetoc.tsx#L27)*
 
 **Type parameters:**
 
@@ -46,7 +46,7 @@ Name | Type |
 `id` | string |
 `intersectionObserverInit` | IntersectionObserverInit |
 `selectors` | string[] |
-`strategy` | [TraitStrategy](../interfaces/_strategies_storategy_.traitstrategy.md) |
-`tocClassName` | undefined &#124; object |
+`strategy` | [TraitStrategy](../interfaces/_strategies_strategy_.traitstrategy.md) |
+`tocClassName` | undefined &#124; Partial‹[StructTocClassNameContext](../interfaces/_contexts_toc_class_name_context_.structtocclassnamecontext.md)› |
 
 **Returns:** *Element‹›*

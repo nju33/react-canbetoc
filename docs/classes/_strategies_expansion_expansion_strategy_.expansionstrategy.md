@@ -8,7 +8,7 @@
 
 ## Implements
 
-* [TraitStrategy](../interfaces/_strategies_storategy_.traitstrategy.md)
+* [TraitStrategy](../interfaces/_strategies_strategy_.traitstrategy.md)
 
 ## Index
 
@@ -22,7 +22,7 @@
 
 ▸ **handle**(`tocEntries`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *Promise‹void›*
 
-*Defined in [src/strategies/expansion/expansion-strategy.ts:7](https://github.com/nju33/react-canbetoc/blob/9a57d40/src/strategies/expansion/expansion-strategy.ts#L7)*
+*Defined in [src/strategies/expansion/expansion-strategy.ts:7](https://github.com/nju33/react-canbetoc/blob/d80673d/src/strategies/expansion/expansion-strategy.ts#L7)*
 
 **Parameters:**
 
