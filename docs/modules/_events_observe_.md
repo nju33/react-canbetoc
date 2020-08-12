@@ -23,7 +23,7 @@
 
 Ƭ **TraitObserve**: *[TraitEvent](../interfaces/_events_event_.traitevent.md)‹void, [Option‹[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]›, IntersectionObserverInit]›*
 
-*Defined in [src/events/observe.ts:9](https://github.com/nju33/react-canbetoc/blob/a20943a/src/events/observe.ts#L9)*
+*Defined in [src/events/observe.ts:9](https://github.com/nju33/react-canbetoc/blob/77286e5/src/events/observe.ts#L9)*
 
 ## Functions
 
@@ -31,7 +31,7 @@
 
 ▸ **createFilterActive**(`validElements`: Element[]): *function*
 
-*Defined in [src/events/observe.ts:14](https://github.com/nju33/react-canbetoc/blob/a20943a/src/events/observe.ts#L14)*
+*Defined in [src/events/observe.ts:14](https://github.com/nju33/react-canbetoc/blob/77286e5/src/events/observe.ts#L14)*
 
 **Parameters:**
 
@@ -55,7 +55,7 @@ ___
 
 ▸ **createFilterLatestIntersected**(): *function*
 
-*Defined in [src/events/observe.ts:29](https://github.com/nju33/react-canbetoc/blob/a20943a/src/events/observe.ts#L29)*
+*Defined in [src/events/observe.ts:29](https://github.com/nju33/react-canbetoc/blob/77286e5/src/events/observe.ts#L29)*
 
 **Returns:** *function*
 

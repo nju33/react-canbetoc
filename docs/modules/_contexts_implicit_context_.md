@@ -36,7 +36,7 @@
   tocEntryService
 })
 
-*Defined in [src/contexts/implicit-context.ts:35](https://github.com/nju33/react-canbetoc/blob/a20943a/src/contexts/implicit-context.ts#L35)*
+*Defined in [src/contexts/implicit-context.ts:35](https://github.com/nju33/react-canbetoc/blob/77286e5/src/contexts/implicit-context.ts#L35)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **mutationObserverAdaptor**: *[MutationObserverAdaptor](../classes/_interface_mutation_observer_adaptor_.mutationobserveradaptor.md)‹›* = new MutationObserverAdaptor()
 
-*Defined in [src/contexts/implicit-context.ts:33](https://github.com/nju33/react-canbetoc/blob/a20943a/src/contexts/implicit-context.ts#L33)*
+*Defined in [src/contexts/implicit-context.ts:33](https://github.com/nju33/react-canbetoc/blob/77286e5/src/contexts/implicit-context.ts#L33)*
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 • **portableDomAdaptor**: *[PortableDomAdaptor](../classes/_interface_portable_dom_adaptor_.portabledomadaptor.md)‹›* = new PortableDomAdaptor()
 
-*Defined in [src/contexts/implicit-context.ts:32](https://github.com/nju33/react-canbetoc/blob/a20943a/src/contexts/implicit-context.ts#L32)*
+*Defined in [src/contexts/implicit-context.ts:32](https://github.com/nju33/react-canbetoc/blob/77286e5/src/contexts/implicit-context.ts#L32)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **tocEntryDomAdaptor**: *[TocEntryDomAdaptor](../classes/_interface_toc_entry_dom_adaptor_.tocentrydomadaptor.md)‹›* = new TocEntryDomAdaptor()
 
-*Defined in [src/contexts/implicit-context.ts:26](https://github.com/nju33/react-canbetoc/blob/a20943a/src/contexts/implicit-context.ts#L26)*
+*Defined in [src/contexts/implicit-context.ts:26](https://github.com/nju33/react-canbetoc/blob/77286e5/src/contexts/implicit-context.ts#L26)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
   tocListItemAdaptor
 )
 
-*Defined in [src/contexts/implicit-context.ts:28](https://github.com/nju33/react-canbetoc/blob/a20943a/src/contexts/implicit-context.ts#L28)*
+*Defined in [src/contexts/implicit-context.ts:28](https://github.com/nju33/react-canbetoc/blob/77286e5/src/contexts/implicit-context.ts#L28)*
 
 ___
 
@@ -79,4 +79,4 @@ ___
 
 • **tocListItemAdaptor**: *[TocListItemAdaptor](../classes/_interface_toc_list_item_adaptor_.toclistitemadaptor.md)‹›* = new TocListItemAdaptor()
 
-*Defined in [src/contexts/implicit-context.ts:27](https://github.com/nju33/react-canbetoc/blob/a20943a/src/contexts/implicit-context.ts#L27)*
+*Defined in [src/contexts/implicit-context.ts:27](https://github.com/nju33/react-canbetoc/blob/77286e5/src/contexts/implicit-context.ts#L27)*

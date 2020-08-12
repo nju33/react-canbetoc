@@ -22,7 +22,7 @@
 
 • **buildToc**: *[TraitBuildToc](../modules/_events_build_toc_.md#traitbuildtoc)*
 
-*Defined in [src/contexts/implicit-context.ts:19](https://github.com/nju33/react-canbetoc/blob/a20943a/src/contexts/implicit-context.ts#L19)*
+*Defined in [src/contexts/implicit-context.ts:19](https://github.com/nju33/react-canbetoc/blob/77286e5/src/contexts/implicit-context.ts#L19)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **getPortable**: *[TraitGetPortable](../modules/_events_get_portable_.md#traitgetportable)*
 
-*Defined in [src/contexts/implicit-context.ts:20](https://github.com/nju33/react-canbetoc/blob/a20943a/src/contexts/implicit-context.ts#L20)*
+*Defined in [src/contexts/implicit-context.ts:20](https://github.com/nju33/react-canbetoc/blob/77286e5/src/contexts/implicit-context.ts#L20)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **observe**: *[TraitObserve](../modules/_events_observe_.md#traitobserve)*
 
-*Defined in [src/contexts/implicit-context.ts:21](https://github.com/nju33/react-canbetoc/blob/a20943a/src/contexts/implicit-context.ts#L21)*
+*Defined in [src/contexts/implicit-context.ts:21](https://github.com/nju33/react-canbetoc/blob/77286e5/src/contexts/implicit-context.ts#L21)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **observeAttribute**: *[TraitObserveAttribute](../modules/_events_observe_attribute_.md#traitobserveattribute)*
 
-*Defined in [src/contexts/implicit-context.ts:22](https://github.com/nju33/react-canbetoc/blob/a20943a/src/contexts/implicit-context.ts#L22)*
+*Defined in [src/contexts/implicit-context.ts:22](https://github.com/nju33/react-canbetoc/blob/77286e5/src/contexts/implicit-context.ts#L22)*
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 • **tocEntryService**: *[TraitTocEntryService](_entities_toc_entry_service_.traittocentryservice.md)*
 
-*Defined in [src/contexts/implicit-context.ts:23](https://github.com/nju33/react-canbetoc/blob/a20943a/src/contexts/implicit-context.ts#L23)*
+*Defined in [src/contexts/implicit-context.ts:23](https://github.com/nju33/react-canbetoc/blob/77286e5/src/contexts/implicit-context.ts#L23)*

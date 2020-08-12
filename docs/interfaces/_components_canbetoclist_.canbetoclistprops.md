@@ -18,4 +18,4 @@
 
 • **entries**: *[TraitTocEntryDao](_entities_toc_entry_dao_.traittocentrydao.md)[]*
 
-*Defined in [src/components/CanbetocList.tsx:32](https://github.com/nju33/react-canbetoc/blob/a20943a/src/components/CanbetocList.tsx#L32)*
+*Defined in [src/components/CanbetocList.tsx:32](https://github.com/nju33/react-canbetoc/blob/77286e5/src/components/CanbetocList.tsx#L32)*

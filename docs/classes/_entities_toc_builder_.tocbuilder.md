@@ -40,7 +40,7 @@
 
 \+ **new TocBuilder**(`domAdaptor`: [TraitTocEntryDomAdaptor](../interfaces/_entities_toc_entry_dom_adaptor_.traittocentrydomadaptor.md), `tocListItemAdaptor`: [TraitTocListItemAdaptor](../interfaces/_entities_toc_list_item_adaptor_.traittoclistitemadaptor.md), `service`: [TraitTocEntryService](../interfaces/_entities_toc_entry_service_.traittocentryservice.md)): *[TocBuilder](_entities_toc_builder_.tocbuilder.md)*
 
-*Defined in [src/entities/toc-builder.ts:31](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L31)*
+*Defined in [src/entities/toc-builder.ts:31](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L31)*
 
 **Parameters:**
 
@@ -58,7 +58,7 @@ Name | Type |
 
 • **#hierarchyIndex**: *number* = 0
 
-*Defined in [src/entities/toc-builder.ts:31](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L31)*
+*Defined in [src/entities/toc-builder.ts:31](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L31)*
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 • **#list**: *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
-*Defined in [src/entities/toc-builder.ts:30](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L30)*
+*Defined in [src/entities/toc-builder.ts:30](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L30)*
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 • **#root**: *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)*
 
-*Defined in [src/entities/toc-builder.ts:28](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L28)*
+*Defined in [src/entities/toc-builder.ts:28](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L28)*
 
 ___
 
@@ -82,7 +82,7 @@ ___
 
 • **#stack**: *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
-*Defined in [src/entities/toc-builder.ts:29](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L29)*
+*Defined in [src/entities/toc-builder.ts:29](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L29)*
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 • **domAdaptor**: *[TraitTocEntryDomAdaptor](../interfaces/_entities_toc_entry_dom_adaptor_.traittocentrydomadaptor.md)*
 
-*Defined in [src/entities/toc-builder.ts:34](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L34)*
+*Defined in [src/entities/toc-builder.ts:34](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L34)*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 • **service**: *[TraitTocEntryService](../interfaces/_entities_toc_entry_service_.traittocentryservice.md)*
 
-*Defined in [src/entities/toc-builder.ts:36](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L36)*
+*Defined in [src/entities/toc-builder.ts:36](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L36)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 • **tocListItemAdaptor**: *[TraitTocListItemAdaptor](../interfaces/_entities_toc_list_item_adaptor_.traittoclistitemadaptor.md)*
 
-*Defined in [src/entities/toc-builder.ts:35](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L35)*
+*Defined in [src/entities/toc-builder.ts:35](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L35)*
 
 ## Methods
 
@@ -114,7 +114,7 @@ ___
 
 ▸ **addElements**(`elements`: Element[]): *void*
 
-*Defined in [src/entities/toc-builder.ts:43](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L43)*
+*Defined in [src/entities/toc-builder.ts:43](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L43)*
 
 **Parameters:**
 
@@ -130,7 +130,7 @@ ___
 
 ▸ **build**(`commands`: [TraitTocBuilderCommand](../interfaces/_entities_toc_builder_command_.traittocbuildercommand.md)[]): *void*
 
-*Defined in [src/entities/toc-builder.ts:108](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L108)*
+*Defined in [src/entities/toc-builder.ts:108](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L108)*
 
 **Parameters:**
 
@@ -146,7 +146,7 @@ ___
 
 ▸ **get**(): *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)*
 
-*Defined in [src/entities/toc-builder.ts:116](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L116)*
+*Defined in [src/entities/toc-builder.ts:116](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L116)*
 
 **Returns:** *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)*
 
@@ -156,7 +156,7 @@ ___
 
 ▸ **getList**(): *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
-*Defined in [src/entities/toc-builder.ts:120](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L120)*
+*Defined in [src/entities/toc-builder.ts:120](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L120)*
 
 **Returns:** *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
@@ -166,7 +166,7 @@ ___
 
 ▸ **setHierarchy**(`number`: number): *void*
 
-*Defined in [src/entities/toc-builder.ts:104](https://github.com/nju33/react-canbetoc/blob/a20943a/src/entities/toc-builder.ts#L104)*
+*Defined in [src/entities/toc-builder.ts:104](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder.ts#L104)*
 
 **Parameters:**
 
