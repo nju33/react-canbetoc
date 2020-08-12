@@ -17,6 +17,7 @@
   "source": "src/index.ts",
   "files": [
     "*/*.map",
+    "**/*.css",
     "**/*.js",
     "**/*.d.ts"
   ],
