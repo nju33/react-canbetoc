@@ -52,7 +52,7 @@
 
 \+ **new TocEntry**(`domAdaptor`: [TraitTocEntryDomAdaptor](../interfaces/_entities_toc_entry_dom_adaptor_.traittocentrydomadaptor.md), `tocListItemAdaptor`: [TraitTocListItemAdaptor](../interfaces/_entities_toc_list_item_adaptor_.traittoclistitemadaptor.md), `id`: Option‹string›): *[TocEntry](_entities_toc_entry_.tocentry.md)*
 
-*Defined in [src/entities/toc-entry.ts:86](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L86)*
+*Defined in [src/entities/toc-entry.ts:86](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L86)*
 
 **Parameters:**
 
@@ -70,7 +70,7 @@ Name | Type |
 
 • **#items**: *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[][]* = []
 
-*Defined in [src/entities/toc-entry.ts:86](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L86)*
+*Defined in [src/entities/toc-entry.ts:86](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L86)*
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 • **#parentItems**: *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]* = []
 
-*Defined in [src/entities/toc-entry.ts:84](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L84)*
+*Defined in [src/entities/toc-entry.ts:84](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L84)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 • **#siblingItems**: *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]* = []
 
-*Defined in [src/entities/toc-entry.ts:85](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L85)*
+*Defined in [src/entities/toc-entry.ts:85](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L85)*
 
 ___
 
@@ -94,7 +94,7 @@ ___
 
 • **domAdaptor**: *[TraitTocEntryDomAdaptor](../interfaces/_entities_toc_entry_dom_adaptor_.traittocentrydomadaptor.md)*
 
-*Defined in [src/entities/toc-entry.ts:89](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L89)*
+*Defined in [src/entities/toc-entry.ts:89](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L89)*
 
 ___
 
@@ -102,7 +102,7 @@ ___
 
 • **id**: *Option‹string›*
 
-*Defined in [src/entities/toc-entry.ts:91](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L91)*
+*Defined in [src/entities/toc-entry.ts:91](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L91)*
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 • **tocListItemAdaptor**: *[TraitTocListItemAdaptor](../interfaces/_entities_toc_list_item_adaptor_.traittoclistitemadaptor.md)*
 
-*Defined in [src/entities/toc-entry.ts:90](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L90)*
+*Defined in [src/entities/toc-entry.ts:90](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L90)*
 
 ## Methods
 
@@ -118,7 +118,7 @@ ___
 
 ▸ **activate**(`isCurrent`: boolean): *void*
 
-*Defined in [src/entities/toc-entry.ts:168](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L168)*
+*Defined in [src/entities/toc-entry.ts:168](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L168)*
 
 **Parameters:**
 
@@ -134,7 +134,7 @@ ___
 
 ▸ **addItems**(`items`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *void*
 
-*Defined in [src/entities/toc-entry.ts:110](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L110)*
+*Defined in [src/entities/toc-entry.ts:110](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L110)*
 
 **Parameters:**
 
@@ -150,7 +150,7 @@ ___
 
 ▸ **getElement**(): *Option‹HTMLElement›*
 
-*Defined in [src/entities/toc-entry.ts:118](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L118)*
+*Defined in [src/entities/toc-entry.ts:118](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L118)*
 
 **Returns:** *Option‹HTMLElement›*
 
@@ -160,7 +160,7 @@ ___
 
 ▸ **getElementDataActiveBranch**(): *boolean*
 
-*Defined in [src/entities/toc-entry.ts:143](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L143)*
+*Defined in [src/entities/toc-entry.ts:143](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L143)*
 
 **Returns:** *boolean*
 
@@ -170,7 +170,7 @@ ___
 
 ▸ **getElementDataActiveItem**(): *boolean*
 
-*Defined in [src/entities/toc-entry.ts:147](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L147)*
+*Defined in [src/entities/toc-entry.ts:147](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L147)*
 
 **Returns:** *boolean*
 
@@ -180,7 +180,7 @@ ___
 
 ▸ **getElementDataAnchorHeight**(): *Option‹number›*
 
-*Defined in [src/entities/toc-entry.ts:139](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L139)*
+*Defined in [src/entities/toc-entry.ts:139](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L139)*
 
 **Returns:** *Option‹number›*
 
@@ -190,7 +190,7 @@ ___
 
 ▸ **getElementDataHierarcyLevel**(): *Option‹number›*
 
-*Defined in [src/entities/toc-entry.ts:135](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L135)*
+*Defined in [src/entities/toc-entry.ts:135](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L135)*
 
 **Returns:** *Option‹number›*
 
@@ -200,7 +200,7 @@ ___
 
 ▸ **getElementDataId**(): *Option‹string›*
 
-*Defined in [src/entities/toc-entry.ts:131](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L131)*
+*Defined in [src/entities/toc-entry.ts:131](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L131)*
 
 **Returns:** *Option‹string›*
 
@@ -210,7 +210,7 @@ ___
 
 ▸ **getElementDataLatestIntersected**(): *boolean*
 
-*Defined in [src/entities/toc-entry.ts:151](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L151)*
+*Defined in [src/entities/toc-entry.ts:151](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L151)*
 
 **Returns:** *boolean*
 
@@ -220,7 +220,7 @@ ___
 
 ▸ **getElementHeight**(`__namedParameters`: object): *Option‹number›*
 
-*Defined in [src/entities/toc-entry.ts:127](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L127)*
+*Defined in [src/entities/toc-entry.ts:127](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L127)*
 
 **Parameters:**
 
@@ -238,7 +238,7 @@ ___
 
 ▸ **getItems**(): *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
-*Defined in [src/entities/toc-entry.ts:155](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L155)*
+*Defined in [src/entities/toc-entry.ts:155](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L155)*
 
 **Returns:** *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
@@ -248,7 +248,7 @@ ___
 
 ▸ **getParentItems**(): *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
-*Defined in [src/entities/toc-entry.ts:98](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L98)*
+*Defined in [src/entities/toc-entry.ts:98](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L98)*
 
 **Returns:** *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
@@ -258,7 +258,7 @@ ___
 
 ▸ **getSiblingItems**(): *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
-*Defined in [src/entities/toc-entry.ts:106](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L106)*
+*Defined in [src/entities/toc-entry.ts:106](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L106)*
 
 **Returns:** *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
@@ -268,7 +268,7 @@ ___
 
 ▸ **getTarget**(): *Option‹HTMLElement›*
 
-*Defined in [src/entities/toc-entry.ts:159](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L159)*
+*Defined in [src/entities/toc-entry.ts:159](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L159)*
 
 **Returns:** *Option‹HTMLElement›*
 
@@ -278,7 +278,7 @@ ___
 
 ▸ **inactivate**(`isCurrent`: boolean): *void*
 
-*Defined in [src/entities/toc-entry.ts:190](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L190)*
+*Defined in [src/entities/toc-entry.ts:190](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L190)*
 
 **Parameters:**
 
@@ -294,7 +294,7 @@ ___
 
 ▸ **removeItems**(): *void*
 
-*Defined in [src/entities/toc-entry.ts:114](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L114)*
+*Defined in [src/entities/toc-entry.ts:114](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L114)*
 
 **Returns:** *void*
 
@@ -304,7 +304,7 @@ ___
 
 ▸ **setParentItems**(`items`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *void*
 
-*Defined in [src/entities/toc-entry.ts:94](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L94)*
+*Defined in [src/entities/toc-entry.ts:94](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L94)*
 
 **Parameters:**
 
@@ -320,7 +320,7 @@ ___
 
 ▸ **setSiblingItems**(`items`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *void*
 
-*Defined in [src/entities/toc-entry.ts:102](https://github.com/nju33/react-canbetoc/blob/d80673d/src/entities/toc-entry.ts#L102)*
+*Defined in [src/entities/toc-entry.ts:102](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L102)*
 
 **Parameters:**
 

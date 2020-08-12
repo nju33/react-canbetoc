@@ -32,7 +32,7 @@ After did mount, fires mainly to construct a table of contents entry
 
 \+ **new GetPortable**(`portableDomAdaptor`: [TraitPortableDomAdaptor](../interfaces/_interface_portable_dom_adaptor_.traitportabledomadaptor.md)): *[GetPortable](_events_get_portable_.getportable.md)*
 
-*Defined in [src/events/get-portable.ts:11](https://github.com/nju33/react-canbetoc/blob/d80673d/src/events/get-portable.ts#L11)*
+*Defined in [src/events/get-portable.ts:11](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/events/get-portable.ts#L11)*
 
 **Parameters:**
 
@@ -48,7 +48,7 @@ Name | Type |
 
 • **portableDomAdaptor**: *[TraitPortableDomAdaptor](../interfaces/_interface_portable_dom_adaptor_.traitportabledomadaptor.md)*
 
-*Defined in [src/events/get-portable.ts:12](https://github.com/nju33/react-canbetoc/blob/d80673d/src/events/get-portable.ts#L12)*
+*Defined in [src/events/get-portable.ts:12](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/events/get-portable.ts#L12)*
 
 ## Methods
 
@@ -56,7 +56,7 @@ Name | Type |
 
 ▸ **useCase**(`id`: string): *ReturnType‹TraitGetPortable["useCase"]›*
 
-*Defined in [src/events/get-portable.ts:14](https://github.com/nju33/react-canbetoc/blob/d80673d/src/events/get-portable.ts#L14)*
+*Defined in [src/events/get-portable.ts:14](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/events/get-portable.ts#L14)*
 
 **Parameters:**
 
