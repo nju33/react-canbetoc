@@ -22,7 +22,7 @@
 
 ▸ **generatorTocBuilderCommands**(`baseElement`: Element, `strings`: string[]): *Generator‹[TraitTocBuilderCommand](../interfaces/_entities_toc_builder_command_.traittocbuildercommand.md), undefined›*
 
-*Defined in [src/entities/toc-builder-command.ts:32](https://github.com/nju33/react-canbetoc/blob/77286e5/src/entities/toc-builder-command.ts#L32)*
+*Defined in [src/entities/toc-builder-command.ts:32](https://github.com/nju33/react-canbetoc/blob/0f1d85b/src/entities/toc-builder-command.ts#L32)*
 
 **Parameters:**
 
