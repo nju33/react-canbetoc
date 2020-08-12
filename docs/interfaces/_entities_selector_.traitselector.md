@@ -24,7 +24,7 @@
 
 • **getLevel**: *function*
 
-*Defined in [src/entities/selector.ts:2](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/selector.ts#L2)*
+*Defined in [src/entities/selector.ts:2](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/selector.ts#L2)*
 
 #### Type declaration:
 
@@ -36,7 +36,7 @@ ___
 
 • **match**: *function*
 
-*Defined in [src/entities/selector.ts:3](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/selector.ts#L3)*
+*Defined in [src/entities/selector.ts:3](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/selector.ts#L3)*
 
 #### Type declaration:
 
@@ -54,7 +54,7 @@ ___
 
 • **toString**: *function*
 
-*Defined in [src/entities/selector.ts:4](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/selector.ts#L4)*
+*Defined in [src/entities/selector.ts:4](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/selector.ts#L4)*
 
 #### Type declaration:
 

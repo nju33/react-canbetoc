@@ -40,7 +40,7 @@
 
 • **activate**: *function*
 
-*Defined in [src/entities/toc-entry.ts:12](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L12)*
+*Defined in [src/entities/toc-entry.ts:12](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L12)*
 
 親含めて活性化する
 
@@ -60,7 +60,7 @@ ___
 
 • **addItems**: *function*
 
-*Defined in [src/entities/toc-entry.ts:16](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L16)*
+*Defined in [src/entities/toc-entry.ts:16](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L16)*
 
 直下 entry を追加
 
@@ -80,7 +80,7 @@ ___
 
 • **getElement**: *function*
 
-*Defined in [src/entities/toc-entry.ts:20](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L20)*
+*Defined in [src/entities/toc-entry.ts:20](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L20)*
 
 目次要素の取得
 
@@ -94,7 +94,7 @@ ___
 
 • **getElementDataActiveBranch**: *function*
 
-*Defined in [src/entities/toc-entry.ts:24](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L24)*
+*Defined in [src/entities/toc-entry.ts:24](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L24)*
 
 活性化した entry 自身かその親かどうか
 
@@ -108,7 +108,7 @@ ___
 
 • **getElementDataActiveItem**: *function*
 
-*Defined in [src/entities/toc-entry.ts:28](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L28)*
+*Defined in [src/entities/toc-entry.ts:28](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L28)*
 
 活性化した entry 自身かどうか
 
@@ -122,7 +122,7 @@ ___
 
 • **getElementDataAnchorHeight**: *function*
 
-*Defined in [src/entities/toc-entry.ts:32](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L32)*
+*Defined in [src/entities/toc-entry.ts:32](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L32)*
 
 目次要素の高さを取得
 
@@ -136,7 +136,7 @@ ___
 
 • **getElementDataHierarcyLevel**: *function*
 
-*Defined in [src/entities/toc-entry.ts:36](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L36)*
+*Defined in [src/entities/toc-entry.ts:36](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L36)*
 
 階層のレベル
 
@@ -150,7 +150,7 @@ ___
 
 • **getElementDataId**: *function*
 
-*Defined in [src/entities/toc-entry.ts:40](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L40)*
+*Defined in [src/entities/toc-entry.ts:40](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L40)*
 
 目次要素の id
 
@@ -164,7 +164,7 @@ ___
 
 • **getElementDataLatestIntersected**: *function*
 
-*Defined in [src/entities/toc-entry.ts:44](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L44)*
+*Defined in [src/entities/toc-entry.ts:44](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L44)*
 
 前回交差した entry かどうか
 
@@ -178,7 +178,7 @@ ___
 
 • **getElementHeight**: *function*
 
-*Defined in [src/entities/toc-entry.ts:48](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L48)*
+*Defined in [src/entities/toc-entry.ts:48](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L48)*
 
 目次要素の子要素も含めた高さを取得
 
@@ -200,7 +200,7 @@ ___
 
 • **getItems**: *function*
 
-*Defined in [src/entities/toc-entry.ts:52](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L52)*
+*Defined in [src/entities/toc-entry.ts:52](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L52)*
 
 直下階層の entry を取得
 
@@ -214,7 +214,7 @@ ___
 
 • **getParentItems**: *function*
 
-*Defined in [src/entities/toc-entry.ts:56](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L56)*
+*Defined in [src/entities/toc-entry.ts:56](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L56)*
 
 親階層の entry を取得
 
@@ -228,7 +228,7 @@ ___
 
 • **getSiblingItems**: *function*
 
-*Defined in [src/entities/toc-entry.ts:60](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L60)*
+*Defined in [src/entities/toc-entry.ts:60](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L60)*
 
 同階層の entry を取得
 
@@ -242,7 +242,7 @@ ___
 
 • **getTarget**: *function*
 
-*Defined in [src/entities/toc-entry.ts:64](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L64)*
+*Defined in [src/entities/toc-entry.ts:64](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L64)*
 
 目次要素の元となる要素を取得
 
@@ -256,7 +256,7 @@ ___
 
 • **inactivate**: *function*
 
-*Defined in [src/entities/toc-entry.ts:68](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L68)*
+*Defined in [src/entities/toc-entry.ts:68](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L68)*
 
 親含めて非活性化する
 
@@ -276,7 +276,7 @@ ___
 
 • **removeItems**: *function*
 
-*Defined in [src/entities/toc-entry.ts:72](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L72)*
+*Defined in [src/entities/toc-entry.ts:72](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L72)*
 
 持っている entry を空にする
 
@@ -290,7 +290,7 @@ ___
 
 • **setParentItems**: *function*
 
-*Defined in [src/entities/toc-entry.ts:76](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L76)*
+*Defined in [src/entities/toc-entry.ts:76](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L76)*
 
 親階層の entry を格納
 
@@ -310,7 +310,7 @@ ___
 
 • **setSiblingItems**: *function*
 
-*Defined in [src/entities/toc-entry.ts:80](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/toc-entry.ts#L80)*
+*Defined in [src/entities/toc-entry.ts:80](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/toc-entry.ts#L80)*
 
 同階層の entry を格納
 

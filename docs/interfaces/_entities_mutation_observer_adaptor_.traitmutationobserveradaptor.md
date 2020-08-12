@@ -24,7 +24,7 @@
 
 • **disconnect**: *function*
 
-*Defined in [src/entities/mutation-observer-adaptor.ts:2](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/mutation-observer-adaptor.ts#L2)*
+*Defined in [src/entities/mutation-observer-adaptor.ts:2](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/mutation-observer-adaptor.ts#L2)*
 
 #### Type declaration:
 
@@ -42,7 +42,7 @@ ___
 
 • **init**: *function*
 
-*Defined in [src/entities/mutation-observer-adaptor.ts:6](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/mutation-observer-adaptor.ts#L6)*
+*Defined in [src/entities/mutation-observer-adaptor.ts:6](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/mutation-observer-adaptor.ts#L6)*
 
 Create and initialize a instance of the MutationObserver
 
@@ -63,7 +63,7 @@ ___
 
 • **observe**: *function*
 
-*Defined in [src/entities/mutation-observer-adaptor.ts:7](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/entities/mutation-observer-adaptor.ts#L7)*
+*Defined in [src/entities/mutation-observer-adaptor.ts:7](https://github.com/nju33/react-canbetoc/blob/1769b57/src/entities/mutation-observer-adaptor.ts#L7)*
 
 #### Type declaration:
 

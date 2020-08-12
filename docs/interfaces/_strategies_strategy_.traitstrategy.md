@@ -23,7 +23,7 @@
 
 • **handle**: *function*
 
-*Defined in [src/strategies/strategy.ts:4](https://github.com/nju33/react-canbetoc/blob/615bc3d/src/strategies/strategy.ts#L4)*
+*Defined in [src/strategies/strategy.ts:4](https://github.com/nju33/react-canbetoc/blob/1769b57/src/strategies/strategy.ts#L4)*
 
 #### Type declaration:
 
