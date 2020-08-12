@@ -16,9 +16,9 @@
   "esmodule": "index.modern.js",
   "source": "src/index.ts",
   "files": [
-    "*.map",
-    "*.js",
-    "*.d.ts"
+    "*/*.map",
+    "**/*.js",
+    "**/*.d.ts"
   ],
   "license": "MIT",
   "scripts": {
