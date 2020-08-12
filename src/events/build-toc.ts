@@ -43,9 +43,9 @@ export class BuildToc implements TraitBuildToc {
             this.tocEntryService
           )
 
-          const commands = [
-            ...generatorTocBuilderCommands(baseElement, selectors)
-          ]
+          const commands = Array.from(
+            generatorTocBuilderCommands(baseElement, selectors)
+          )
           tocBuilder.build(commands)
 
           setPair([
