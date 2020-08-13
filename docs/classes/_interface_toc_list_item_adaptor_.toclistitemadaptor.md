@@ -41,7 +41,7 @@
     return acc
   })
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:96](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L96)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:96](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L96)*
 
 #### Type declaration:
 
@@ -66,7 +66,7 @@ ___
     return number
   })
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:23](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L23)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:23](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L23)*
 
 #### Type declaration:
 
@@ -84,7 +84,7 @@ Name | Type |
 
 ▸ **getActiveBranch**(`element`: Option‹HTMLElement›): *boolean*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:84](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L84)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:84](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L84)*
 
 **Parameters:**
 
@@ -100,7 +100,7 @@ ___
 
 ▸ **getActiveItem**(`element`: Option‹HTMLElement›): *boolean*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:88](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L88)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:88](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L88)*
 
 **Parameters:**
 
@@ -116,7 +116,7 @@ ___
 
 ▸ **getAnchorHeight**(`element`: Option‹HTMLElement›): *Option‹number›*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:92](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L92)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:92](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L92)*
 
 **Parameters:**
 
@@ -132,7 +132,7 @@ ___
 
 ▸ **getData**(`optionElement`: Option‹HTMLElement›, `attrName`: string): *Option‹string›*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:72](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L72)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:72](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L72)*
 
 **Parameters:**
 
@@ -149,7 +149,7 @@ ___
 
 ▸ **getDataInBoolean**(`optionElement`: Option‹HTMLElement›, `attrName`: string): *boolean*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:34](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L34)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:34](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L34)*
 
 **Parameters:**
 
@@ -166,7 +166,7 @@ ___
 
 ▸ **getDataInNumber**(`optionElement`: Option‹HTMLElement›, `attrName`: string): *Option‹number›*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:57](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L57)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:57](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L57)*
 
 **Parameters:**
 
@@ -183,7 +183,7 @@ ___
 
 ▸ **getHeight**(`optionElement`: Option‹HTMLElement›, `__namedParameters`: object): *Option‹number›*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:102](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L102)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:102](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L102)*
 
 **Parameters:**
 
@@ -203,7 +203,7 @@ ___
 
 ▸ **getHeightFull**(`optionElement`: Option‹HTMLElement›): *Option‹number›*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:150](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L150)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:150](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L150)*
 
 **Parameters:**
 
@@ -219,7 +219,7 @@ ___
 
 ▸ **getHierarchyLevel**(`element`: Option‹HTMLElement›): *Option‹number›*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:182](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L182)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:182](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L182)*
 
 **Parameters:**
 
@@ -235,7 +235,7 @@ ___
 
 ▸ **getId**(`optionElement`: Option‹HTMLElement›): *Option‹string›*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:186](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L186)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:186](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L186)*
 
 **Parameters:**
 
@@ -251,7 +251,7 @@ ___
 
 ▸ **getLatestIntersected**(`element`: Option‹HTMLElement›): *boolean*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:196](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/interface/toc-list-item-adaptor.ts#L196)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:196](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/interface/toc-list-item-adaptor.ts#L196)*
 
 **Parameters:**
 

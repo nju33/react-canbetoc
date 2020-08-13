@@ -14,7 +14,7 @@
 
 ▸ **isElement**(`element`: Element | null): *element is Element*
 
-*Defined in [src/utils/element.ts:1](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/utils/element.ts#L1)*
+*Defined in [src/utils/element.ts:1](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/utils/element.ts#L1)*
 
 **Parameters:**
 

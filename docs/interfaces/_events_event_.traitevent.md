@@ -31,7 +31,7 @@
 
 • **useCase**: *function*
 
-*Defined in [src/events/event.ts:2](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/events/event.ts#L2)*
+*Defined in [src/events/event.ts:2](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/events/event.ts#L2)*
 
 #### Type declaration:
 
