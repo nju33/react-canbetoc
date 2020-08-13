@@ -18,4 +18,4 @@
 
 Ƭ **TraitGetPortable**: *[TraitEvent](../interfaces/_events_event_.traitevent.md)‹Option‹Element›, [string]›*
 
-*Defined in [src/events/get-portable.ts:6](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/events/get-portable.ts#L6)*
+*Defined in [src/events/get-portable.ts:6](https://github.com/nju33/react-canbetoc/blob/21df68e/src/events/get-portable.ts#L6)*

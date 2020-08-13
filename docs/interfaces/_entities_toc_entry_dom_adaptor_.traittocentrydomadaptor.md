@@ -28,7 +28,7 @@
 
 • **findElementById**: *function*
 
-*Defined in [src/entities/toc-entry-dom-adaptor.ts:10](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/entities/toc-entry-dom-adaptor.ts#L10)*
+*Defined in [src/entities/toc-entry-dom-adaptor.ts:10](https://github.com/nju33/react-canbetoc/blob/21df68e/src/entities/toc-entry-dom-adaptor.ts#L10)*
 
 #### Type declaration:
 
@@ -46,7 +46,7 @@ ___
 
 • **findTargetById**: *function*
 
-*Defined in [src/entities/toc-entry-dom-adaptor.ts:12](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/entities/toc-entry-dom-adaptor.ts#L12)*
+*Defined in [src/entities/toc-entry-dom-adaptor.ts:12](https://github.com/nju33/react-canbetoc/blob/21df68e/src/entities/toc-entry-dom-adaptor.ts#L12)*
 
 #### Type declaration:
 
@@ -64,7 +64,7 @@ ___
 
 • **getDataCanbetocTocActiveBranchFrom**: *function*
 
-*Defined in [src/entities/toc-entry-dom-adaptor.ts:14](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/entities/toc-entry-dom-adaptor.ts#L14)*
+*Defined in [src/entities/toc-entry-dom-adaptor.ts:14](https://github.com/nju33/react-canbetoc/blob/21df68e/src/entities/toc-entry-dom-adaptor.ts#L14)*
 
 #### Type declaration:
 
@@ -82,7 +82,7 @@ ___
 
 • **getDataCanbetocTocActiveItemFrom**: *function*
 
-*Defined in [src/entities/toc-entry-dom-adaptor.ts:16](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/entities/toc-entry-dom-adaptor.ts#L16)*
+*Defined in [src/entities/toc-entry-dom-adaptor.ts:16](https://github.com/nju33/react-canbetoc/blob/21df68e/src/entities/toc-entry-dom-adaptor.ts#L16)*
 
 #### Type declaration:
 
@@ -100,7 +100,7 @@ ___
 
 • **getHierarchyLevelFrom**: *function*
 
-*Defined in [src/entities/toc-entry-dom-adaptor.ts:18](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/entities/toc-entry-dom-adaptor.ts#L18)*
+*Defined in [src/entities/toc-entry-dom-adaptor.ts:18](https://github.com/nju33/react-canbetoc/blob/21df68e/src/entities/toc-entry-dom-adaptor.ts#L18)*
 
 #### Type declaration:
 
@@ -118,7 +118,7 @@ ___
 
 • **getIdFrom**: *function*
 
-*Defined in [src/entities/toc-entry-dom-adaptor.ts:20](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/entities/toc-entry-dom-adaptor.ts#L20)*
+*Defined in [src/entities/toc-entry-dom-adaptor.ts:20](https://github.com/nju33/react-canbetoc/blob/21df68e/src/entities/toc-entry-dom-adaptor.ts#L20)*
 
 #### Type declaration:
 
@@ -136,7 +136,7 @@ ___
 
 • **update**: *function*
 
-*Defined in [src/entities/toc-entry-dom-adaptor.ts:22](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/entities/toc-entry-dom-adaptor.ts#L22)*
+*Defined in [src/entities/toc-entry-dom-adaptor.ts:22](https://github.com/nju33/react-canbetoc/blob/21df68e/src/entities/toc-entry-dom-adaptor.ts#L22)*
 
 #### Type declaration:
 

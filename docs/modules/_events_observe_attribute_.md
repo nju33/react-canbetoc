@@ -22,7 +22,7 @@
 
 Ƭ **TraitObserveAttribute**: *[TraitEvent](../interfaces/_events_event_.traitevent.md)‹void, [string, RefObject‹Element›, [TraitStrategy](../interfaces/_strategies_strategy_.traitstrategy.md), Option‹[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]›]›*
 
-*Defined in [src/events/observe-attribute.ts:12](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/events/observe-attribute.ts#L12)*
+*Defined in [src/events/observe-attribute.ts:12](https://github.com/nju33/react-canbetoc/blob/21df68e/src/events/observe-attribute.ts#L12)*
 
 ## Variables
 
@@ -48,7 +48,7 @@
   return result
 })
 
-*Defined in [src/events/observe-attribute.ts:17](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/events/observe-attribute.ts#L17)*
+*Defined in [src/events/observe-attribute.ts:17](https://github.com/nju33/react-canbetoc/blob/21df68e/src/events/observe-attribute.ts#L17)*
 
 #### Type declaration:
 

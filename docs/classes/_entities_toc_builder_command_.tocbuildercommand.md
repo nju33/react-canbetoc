@@ -31,7 +31,7 @@
 
 \+ **new TocBuilderCommand**(`selector`: [TraitSelector](../interfaces/_entities_selector_.traitselector.md), `elements`: Element[]): *[TocBuilderCommand](_entities_toc_builder_command_.tocbuildercommand.md)*
 
-*Defined in [src/entities/toc-builder-command.ts:15](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/entities/toc-builder-command.ts#L15)*
+*Defined in [src/entities/toc-builder-command.ts:15](https://github.com/nju33/react-canbetoc/blob/21df68e/src/entities/toc-builder-command.ts#L15)*
 
 **Parameters:**
 
@@ -48,7 +48,7 @@ Name | Type |
 
 • **elements**: *Element[]*
 
-*Defined in [src/entities/toc-builder-command.ts:18](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/entities/toc-builder-command.ts#L18)*
+*Defined in [src/entities/toc-builder-command.ts:18](https://github.com/nju33/react-canbetoc/blob/21df68e/src/entities/toc-builder-command.ts#L18)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • **selector**: *[TraitSelector](../interfaces/_entities_selector_.traitselector.md)*
 
-*Defined in [src/entities/toc-builder-command.ts:17](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/entities/toc-builder-command.ts#L17)*
+*Defined in [src/entities/toc-builder-command.ts:17](https://github.com/nju33/react-canbetoc/blob/21df68e/src/entities/toc-builder-command.ts#L17)*
 
 ## Methods
 
@@ -64,7 +64,7 @@ ___
 
 ▸ **execute**(`builder`: [TraitTocBuilder](../interfaces/_entities_toc_builder_.traittocbuilder.md)): *[TraitTocBuilder](../interfaces/_entities_toc_builder_.traittocbuilder.md)*
 
-*Defined in [src/entities/toc-builder-command.ts:21](https://github.com/nju33/react-canbetoc/blob/118b6f6/src/entities/toc-builder-command.ts#L21)*
+*Defined in [src/entities/toc-builder-command.ts:21](https://github.com/nju33/react-canbetoc/blob/21df68e/src/entities/toc-builder-command.ts#L21)*
 
 **Parameters:**
 
