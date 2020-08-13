@@ -16,7 +16,7 @@ export class GetPortable implements TraitGetPortable {
 
     useEffect(() => {
       setPortable(this.portableDomAdaptor.findById(id))
-    }, [setPortable])
+    }, [id, setPortable])
 
     return portable
   }
