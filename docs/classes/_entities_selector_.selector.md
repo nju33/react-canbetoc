@@ -33,7 +33,7 @@
 
 \+ **new Selector**(`value`: string, `level`: number): *[Selector](_entities_selector_.selector.md)*
 
-*Defined in [src/entities/selector.ts:7](https://github.com/nju33/react-canbetoc/blob/0f1d85b/src/entities/selector.ts#L7)*
+*Defined in [src/entities/selector.ts:7](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/selector.ts#L7)*
 
 **Parameters:**
 
@@ -50,7 +50,7 @@ Name | Type |
 
 • **level**: *number*
 
-*Defined in [src/entities/selector.ts:8](https://github.com/nju33/react-canbetoc/blob/0f1d85b/src/entities/selector.ts#L8)*
+*Defined in [src/entities/selector.ts:8](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/selector.ts#L8)*
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 • **value**: *string*
 
-*Defined in [src/entities/selector.ts:8](https://github.com/nju33/react-canbetoc/blob/0f1d85b/src/entities/selector.ts#L8)*
+*Defined in [src/entities/selector.ts:8](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/selector.ts#L8)*
 
 ## Methods
 
@@ -66,7 +66,7 @@ ___
 
 ▸ **getLevel**(): *number*
 
-*Defined in [src/entities/selector.ts:10](https://github.com/nju33/react-canbetoc/blob/0f1d85b/src/entities/selector.ts#L10)*
+*Defined in [src/entities/selector.ts:10](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/selector.ts#L10)*
 
 **Returns:** *number*
 
@@ -76,7 +76,7 @@ ___
 
 ▸ **match**(`element`: Element): *boolean*
 
-*Defined in [src/entities/selector.ts:14](https://github.com/nju33/react-canbetoc/blob/0f1d85b/src/entities/selector.ts#L14)*
+*Defined in [src/entities/selector.ts:14](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/selector.ts#L14)*
 
 **Parameters:**
 
@@ -92,6 +92,6 @@ ___
 
 ▸ **toString**(): *string*
 
-*Defined in [src/entities/selector.ts:18](https://github.com/nju33/react-canbetoc/blob/0f1d85b/src/entities/selector.ts#L18)*
+*Defined in [src/entities/selector.ts:18](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/selector.ts#L18)*
 
 **Returns:** *string*

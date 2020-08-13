@@ -18,7 +18,7 @@
 
 ▸ **getAttrName**(`suffix`: string): *string*
 
-*Defined in [src/interface/toc-list-item-adaptor.ts:18](https://github.com/nju33/react-canbetoc/blob/0f1d85b/src/interface/toc-list-item-adaptor.ts#L18)*
+*Defined in [src/interface/toc-list-item-adaptor.ts:18](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/interface/toc-list-item-adaptor.ts#L18)*
 
 **Parameters:**
 

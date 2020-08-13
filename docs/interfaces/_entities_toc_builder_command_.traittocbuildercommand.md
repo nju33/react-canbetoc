@@ -22,7 +22,7 @@
 
 • **execute**: *function*
 
-*Defined in [src/entities/toc-builder-command.ts:12](https://github.com/nju33/react-canbetoc/blob/0f1d85b/src/entities/toc-builder-command.ts#L12)*
+*Defined in [src/entities/toc-builder-command.ts:12](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/toc-builder-command.ts#L12)*
 
 TocBuilder を操作開始
 
