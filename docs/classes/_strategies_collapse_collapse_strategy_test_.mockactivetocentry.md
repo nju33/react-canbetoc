@@ -47,7 +47,7 @@
 
 \+ **new MockActiveTocEntry**(`data`: object): *[MockActiveTocEntry](_strategies_collapse_collapse_strategy_test_.mockactivetocentry.md)*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:11](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L11)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:11](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L11)*
 
 **Parameters:**
 
@@ -72,7 +72,7 @@ Name | Type |
 
 • **data**: *object*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:13](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L13)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:13](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L13)*
 
 #### Type declaration:
 
@@ -98,7 +98,7 @@ Name | Type |
 
 ▸ **activate**(`isCurrent?`: undefined | false | true): *void*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:25](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L25)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:25](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L25)*
 
 **Parameters:**
 
@@ -114,7 +114,7 @@ ___
 
 ▸ **addItems**(`items`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *void*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:29](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L29)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:29](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L29)*
 
 **Parameters:**
 
@@ -130,7 +130,7 @@ ___
 
 ▸ **getElement**(): *Option‹HTMLElement›*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:33](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L33)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:33](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L33)*
 
 **Returns:** *Option‹HTMLElement›*
 
@@ -140,7 +140,7 @@ ___
 
 ▸ **getElementDataActiveBranch**(): *boolean*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:37](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L37)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:37](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L37)*
 
 **Returns:** *boolean*
 
@@ -150,7 +150,7 @@ ___
 
 ▸ **getElementDataActiveItem**(): *boolean*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:41](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L41)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:41](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L41)*
 
 **Returns:** *boolean*
 
@@ -160,7 +160,7 @@ ___
 
 ▸ **getElementDataAnchorHeight**(): *Option‹number›*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:45](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L45)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:45](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L45)*
 
 **Returns:** *Option‹number›*
 
@@ -170,7 +170,7 @@ ___
 
 ▸ **getElementDataHierarcyLevel**(): *Option‹number›*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:49](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L49)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:49](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L49)*
 
 **Returns:** *Option‹number›*
 
@@ -180,7 +180,7 @@ ___
 
 ▸ **getElementDataId**(): *Option‹string›*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:53](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L53)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:53](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L53)*
 
 **Returns:** *Option‹string›*
 
@@ -190,7 +190,7 @@ ___
 
 ▸ **getElementDataLatestIntersected**(): *boolean*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:57](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L57)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:57](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L57)*
 
 **Returns:** *boolean*
 
@@ -200,7 +200,7 @@ ___
 
 ▸ **getElementHeight**(`options`: object): *Option‹number›*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:61](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L61)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:61](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L61)*
 
 **Parameters:**
 
@@ -218,7 +218,7 @@ ___
 
 ▸ **getItems**(): *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:81](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L81)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:81](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L81)*
 
 **Returns:** *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
@@ -228,7 +228,7 @@ ___
 
 ▸ **getParentItems**(): *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:85](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L85)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:85](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L85)*
 
 **Returns:** *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
@@ -238,7 +238,7 @@ ___
 
 ▸ **getSiblingItems**(): *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:89](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L89)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:89](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L89)*
 
 **Returns:** *[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]*
 
@@ -248,7 +248,7 @@ ___
 
 ▸ **getTarget**(): *Option‹Element›*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:93](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L93)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:93](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L93)*
 
 **Returns:** *Option‹Element›*
 
@@ -258,7 +258,7 @@ ___
 
 ▸ **inactivate**(`isCurrent?`: undefined | false | true): *void*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:97](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L97)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:97](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L97)*
 
 **Parameters:**
 
@@ -274,7 +274,7 @@ ___
 
 ▸ **removeItems**(): *void*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:101](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L101)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:101](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L101)*
 
 **Returns:** *void*
 
@@ -284,7 +284,7 @@ ___
 
 ▸ **setParentItems**(`items`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *void*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:105](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L105)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:105](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L105)*
 
 **Parameters:**
 
@@ -300,7 +300,7 @@ ___
 
 ▸ **setSiblingItems**(`items`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *void*
 
-*Defined in [src/strategies/collapse/collapse-strategy.test.ts:109](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/strategies/collapse/collapse-strategy.test.ts#L109)*
+*Defined in [src/strategies/collapse/collapse-strategy.test.ts:109](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/strategies/collapse/collapse-strategy.test.ts#L109)*
 
 **Parameters:**
 

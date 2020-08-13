@@ -34,7 +34,7 @@ After did mount, fires mainly to construct a table of contents entry
 
 \+ **new BuildToc**(`tocEntryDomAdaptor`: [TraitTocEntryDomAdaptor](../interfaces/_entities_toc_entry_dom_adaptor_.traittocentrydomadaptor.md), `tocListItemAdaptor`: [TraitTocListItemAdaptor](../interfaces/_entities_toc_list_item_adaptor_.traittoclistitemadaptor.md), `tocEntryService`: [TraitTocEntryService](../interfaces/_entities_toc_entry_service_.traittocentryservice.md)): *[BuildToc](_events_build_toc_.buildtoc.md)*
 
-*Defined in [src/events/build-toc.ts:20](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/events/build-toc.ts#L20)*
+*Defined in [src/events/build-toc.ts:20](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/events/build-toc.ts#L20)*
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ Name | Type |
 
 • **tocEntryDomAdaptor**: *[TraitTocEntryDomAdaptor](../interfaces/_entities_toc_entry_dom_adaptor_.traittocentrydomadaptor.md)*
 
-*Defined in [src/events/build-toc.ts:22](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/events/build-toc.ts#L22)*
+*Defined in [src/events/build-toc.ts:22](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/events/build-toc.ts#L22)*
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 • **tocEntryService**: *[TraitTocEntryService](../interfaces/_entities_toc_entry_service_.traittocentryservice.md)*
 
-*Defined in [src/events/build-toc.ts:24](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/events/build-toc.ts#L24)*
+*Defined in [src/events/build-toc.ts:24](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/events/build-toc.ts#L24)*
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 • **tocListItemAdaptor**: *[TraitTocListItemAdaptor](../interfaces/_entities_toc_list_item_adaptor_.traittoclistitemadaptor.md)*
 
-*Defined in [src/events/build-toc.ts:23](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/events/build-toc.ts#L23)*
+*Defined in [src/events/build-toc.ts:23](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/events/build-toc.ts#L23)*
 
 ## Methods
 
@@ -76,7 +76,7 @@ ___
 
 ▸ **useCase**(`baseElementRef`: RefObject‹Element›, `selectors`: string[]): *ReturnType‹TraitBuildToc["useCase"]›*
 
-*Defined in [src/events/build-toc.ts:27](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/events/build-toc.ts#L27)*
+*Defined in [src/events/build-toc.ts:27](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/events/build-toc.ts#L27)*
 
 **Parameters:**
 

@@ -23,7 +23,7 @@
 
 • **convertToDaoFrom**: *function*
 
-*Defined in [src/entities/toc-entry-service.ts:9](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/entities/toc-entry-service.ts#L9)*
+*Defined in [src/entities/toc-entry-service.ts:9](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/entities/toc-entry-service.ts#L9)*
 
 #### Type declaration:
 
@@ -41,7 +41,7 @@ ___
 
 • **getInstance**: *function*
 
-*Defined in [src/entities/toc-entry-service.ts:13](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/entities/toc-entry-service.ts#L13)*
+*Defined in [src/entities/toc-entry-service.ts:13](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/entities/toc-entry-service.ts#L13)*
 
 TocEntry を作成か、既存の物を取得
 

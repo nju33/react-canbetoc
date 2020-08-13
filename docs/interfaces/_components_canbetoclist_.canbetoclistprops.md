@@ -19,7 +19,7 @@
 
 • **entries**: *[TraitTocEntryDao](_entities_toc_entry_dao_.traittocentrydao.md)[]*
 
-*Defined in [src/components/CanbetocList.tsx:32](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/CanbetocList.tsx#L32)*
+*Defined in [src/components/CanbetocList.tsx:32](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/components/CanbetocList.tsx#L32)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **tocId**: *string*
 
-*Defined in [src/components/CanbetocList.tsx:33](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/CanbetocList.tsx#L33)*
+*Defined in [src/components/CanbetocList.tsx:33](https://github.com/nju33/react-canbetoc/blob/17dca0a/src/components/CanbetocList.tsx#L33)*
