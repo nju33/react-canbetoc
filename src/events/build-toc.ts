@@ -34,26 +34,28 @@ export class BuildToc implements TraitBuildToc {
     useEffect(() => {
       const OptionbaseElement = fromNullable(baseElementRef.current)
 
-      pipe(
-        OptionbaseElement,
-        map((baseElement) => {
-          const tocBuilder = new TocBuilder(
-            this.tocEntryDomAdaptor,
-            this.tocListItemAdaptor,
-            this.tocEntryService
-          )
+      setTimeout(() => {
+        pipe(
+          OptionbaseElement,
+          map((baseElement) => {
+            const tocBuilder = new TocBuilder(
+              this.tocEntryDomAdaptor,
+              this.tocListItemAdaptor,
+              this.tocEntryService
+            )
 
-          const commands = Array.from(
-            generatorTocBuilderCommands(baseElement, selectors)
-          )
-          tocBuilder.build(commands)
+            const commands = Array.from(
+              generatorTocBuilderCommands(baseElement, selectors)
+            )
+            tocBuilder.build(commands)
 
-          setPair([
-            some(tocBuilder.get().getItems()),
-            some(tocBuilder.getList())
-          ])
-        })
-      )
+            setPair([
+              some(tocBuilder.get().getItems()),
+              some(tocBuilder.getList())
+            ])
+          })
+        )
+      }, 80)
     }, [baseElementRef.current, selectors, setPair])
 
     return pair

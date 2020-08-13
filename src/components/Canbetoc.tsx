@@ -83,23 +83,28 @@ export const Canbetoc: CanbetocFC = <Props extends CanbetocProps>({
     )
   }, [id, optionStructuredTocEntries, optionPortable])
 
-  const cloned = React.useMemo(() => {
+  const cloned = useMemo(() => {
     return cloneElement(children, { ref: baseElementRef })
   }, [children, baseElementRef])
-  return pipe(
-    optionTocElement,
-    fold(
-      () => <>{cloned}</>,
-      (tocElement) => {
-        return (
-          <>
-            {tocElement}
-            {cloned}
-          </>
-        )
-      }
+
+  const result = useMemo(() => {
+    return pipe(
+      optionTocElement,
+      fold(
+        () => <>{cloned}</>,
+        (tocElement) => {
+          return (
+            <>
+              {tocElement}
+              {cloned}
+            </>
+          )
+        }
+      )
     )
-  )
+  }, [optionTocElement, cloned])
+
+  return result
 }
 
 Canbetoc.defaultProps = {
