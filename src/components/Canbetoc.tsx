@@ -71,13 +71,17 @@ export const Canbetoc: CanbetocFC = <Props extends CanbetocProps>({
         return createPortal(
           <tocClassNameContext.Provider
             value={createTocClasssNameValue(tocClassName)}>
-            <CanbetocList ref={tocBaseElementRef} entries={entries} />
+            <CanbetocList
+              ref={tocBaseElementRef}
+              tocId={id}
+              entries={entries}
+            />
           </tocClassNameContext.Provider>,
           portable
         )
       })
     )
-  }, [optionStructuredTocEntries, optionPortable])
+  }, [id, optionStructuredTocEntries, optionPortable])
 
   const cloned = cloneElement(children, { ref: baseElementRef })
   return pipe(

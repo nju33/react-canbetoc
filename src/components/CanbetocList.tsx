@@ -30,17 +30,22 @@ const cacheContext = createContext({
 
 export interface CanbetocListProps {
   entries: TraitTocEntryDao[]
+  tocId: string
 }
 
 export const CanbetocItem: React.FC<{
   entry: CanbetocListProps['entries'][number]
   hierarchyLevel: number
-}> = memo(({ entry, hierarchyLevel }) => {
+  tocId: string
+}> = memo(({ entry, hierarchyLevel, tocId }) => {
+  const getCacheKey = useCallback((id: string): string => `${tocId}-${id}`, [
+    tocId
+  ])
   const cache = useContext(cacheContext)
   const className = useContext(tocClassNameContext)
   const id = entry.useId()
   const [style, setStyle] = useState<any>({
-    height: cache.height.get(id) ?? '0'
+    height: cache.height.get(getCacheKey(id)) ?? '0'
   })
 
   const elementRef = useCallback(
@@ -56,9 +61,14 @@ export const CanbetocItem: React.FC<{
         }),
         map(([liElement, anchorElement]) => {
           setStyle(() => {
-            const height = String(window.getComputedStyle(liElement).lineHeight)
+            // const height = Math.max(window.getComputedStyle(liElement).lineHeight)
+            // const height = String(window.getComputedStyle(liElement).lineHeight)
+            const height = Math.max(
+              liElement.clientHeight,
+              anchorElement.clientHeight
+            )
 
-            cache.height.set(id, height)
+            cache.height.set(getCacheKey(id), String(height))
             return { height }
           })
 
@@ -75,7 +85,7 @@ export const CanbetocItem: React.FC<{
         })
       )
     },
-    [entry, cache, setStyle]
+    [getCacheKey, entry, cache, setStyle]
   )
   return (
     <li
@@ -116,7 +126,7 @@ export const CanbetocItem: React.FC<{
 export const CanbetocList: NamedExoticComponent<
   CanbetocListProps & RefAttributes<HTMLUListElement>
 > = memo(
-  forwardRef<HTMLUListElement, CanbetocListProps>(({ entries }, ref) => {
+  forwardRef<HTMLUListElement, CanbetocListProps>(({ entries, tocId }, ref) => {
     const className = useContext(tocClassNameContext)
     const [cache] = useState({
       height: new Map<string, string>()
@@ -131,6 +141,7 @@ export const CanbetocList: NamedExoticComponent<
             return (
               <CanbetocItem
                 key={entry.getRandomId()}
+                tocId={tocId}
                 entry={entry}
                 hierarchyLevel={1}
               />
