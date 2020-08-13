@@ -61,8 +61,6 @@ export const CanbetocItem: React.FC<{
         }),
         map(([liElement, anchorElement]) => {
           setStyle(() => {
-            // const height = Math.max(window.getComputedStyle(liElement).lineHeight)
-            // const height = String(window.getComputedStyle(liElement).lineHeight)
             const height = Math.max(
               liElement.clientHeight,
               anchorElement.clientHeight
@@ -112,6 +110,7 @@ export const CanbetocItem: React.FC<{
             return (
               <CanbetocItem
                 key={item.getRandomId()}
+                tocId={tocId}
                 entry={item}
                 hierarchyLevel={hierarchyLevel + 1}
               />
