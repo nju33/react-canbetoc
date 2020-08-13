@@ -22,7 +22,7 @@
 
 Ƭ **CanbetocFC**: *React.FC‹Readonly‹[CanbetocProps](../interfaces/_components_canbetoc_.canbetocprops.md)››*
 
-*Defined in [src/components/Canbetoc.tsx:25](https://github.com/nju33/react-canbetoc/blob/21df68e/src/components/Canbetoc.tsx#L25)*
+*Defined in [src/components/Canbetoc.tsx:25](https://github.com/nju33/react-canbetoc/blob/62216a1/src/components/Canbetoc.tsx#L25)*
 
 ## Functions
 
@@ -30,7 +30,7 @@
 
 ▸ **Canbetoc**‹**Props**›(`__namedParameters`: object): *Element‹›*
 
-*Defined in [src/components/Canbetoc.tsx:27](https://github.com/nju33/react-canbetoc/blob/21df68e/src/components/Canbetoc.tsx#L27)*
+*Defined in [src/components/Canbetoc.tsx:27](https://github.com/nju33/react-canbetoc/blob/62216a1/src/components/Canbetoc.tsx#L27)*
 
 **Type parameters:**
 

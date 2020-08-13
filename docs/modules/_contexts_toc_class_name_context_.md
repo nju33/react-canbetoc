@@ -24,7 +24,7 @@
   createTocClasssNameValue()
 )
 
-*Defined in [src/contexts/toc-class-name-context.ts:20](https://github.com/nju33/react-canbetoc/blob/21df68e/src/contexts/toc-class-name-context.ts#L20)*
+*Defined in [src/contexts/toc-class-name-context.ts:20](https://github.com/nju33/react-canbetoc/blob/62216a1/src/contexts/toc-class-name-context.ts#L20)*
 
 ## Functions
 
@@ -32,7 +32,7 @@
 
 ▸ **createTocClasssNameValue**(`value`: Partial‹[StructTocClassNameContext](../interfaces/_contexts_toc_class_name_context_.structtocclassnamecontext.md)›): *[StructTocClassNameContext](../interfaces/_contexts_toc_class_name_context_.structtocclassnamecontext.md)*
 
-*Defined in [src/contexts/toc-class-name-context.ts:10](https://github.com/nju33/react-canbetoc/blob/21df68e/src/contexts/toc-class-name-context.ts#L10)*
+*Defined in [src/contexts/toc-class-name-context.ts:10](https://github.com/nju33/react-canbetoc/blob/62216a1/src/contexts/toc-class-name-context.ts#L10)*
 
 **Parameters:**
 

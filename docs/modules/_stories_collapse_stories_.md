@@ -19,7 +19,7 @@
 
 • **strategy**: *[CollapseStrategy](../classes/_strategies_collapse_collapse_strategy_.collapsestrategy.md)‹›* = new CollapseStrategy()
 
-*Defined in [src/stories/collapse.stories.tsx:14](https://github.com/nju33/react-canbetoc/blob/21df68e/src/stories/collapse.stories.tsx#L14)*
+*Defined in [src/stories/collapse.stories.tsx:14](https://github.com/nju33/react-canbetoc/blob/62216a1/src/stories/collapse.stories.tsx#L14)*
 
 ## Functions
 
@@ -27,7 +27,7 @@
 
 ▸ **Collapse**(): *ReactElement*
 
-*Defined in [src/stories/collapse.stories.tsx:16](https://github.com/nju33/react-canbetoc/blob/21df68e/src/stories/collapse.stories.tsx#L16)*
+*Defined in [src/stories/collapse.stories.tsx:16](https://github.com/nju33/react-canbetoc/blob/62216a1/src/stories/collapse.stories.tsx#L16)*
 
 **Returns:** *ReactElement*
 
@@ -37,6 +37,6 @@ ___
 
 ▸ **FakeP**(): *Element‹›*
 
-*Defined in [src/stories/collapse.stories.tsx:10](https://github.com/nju33/react-canbetoc/blob/21df68e/src/stories/collapse.stories.tsx#L10)*
+*Defined in [src/stories/collapse.stories.tsx:10](https://github.com/nju33/react-canbetoc/blob/62216a1/src/stories/collapse.stories.tsx#L10)*
 
 **Returns:** *Element‹›*

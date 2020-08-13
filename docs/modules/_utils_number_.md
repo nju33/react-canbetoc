@@ -14,7 +14,7 @@
 
 ▸ **aassertLessThan10**(`num`: number): *asserts num is number*
 
-*Defined in [src/utils/number.ts:1](https://github.com/nju33/react-canbetoc/blob/21df68e/src/utils/number.ts#L1)*
+*Defined in [src/utils/number.ts:1](https://github.com/nju33/react-canbetoc/blob/62216a1/src/utils/number.ts#L1)*
 
 **Parameters:**
 
