@@ -85,6 +85,13 @@ export class Observe implements TraitObserve {
             this.update(tocEntries, validIoEntries)
           }, memoizedIntersectionObserverInit)
 
+          pipe(
+            observerRef.current,
+            map((observer) => {
+              observer.disconnect()
+              observerRef.current = none
+            })
+          )
           observerRef.current = some(observer)
 
           tocEntries.forEach((tocEntry) => {
