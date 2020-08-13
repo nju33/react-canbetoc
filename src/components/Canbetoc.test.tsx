@@ -3,7 +3,7 @@
  */
 import 'intersection-observer'
 import '@testing-library/jest-dom'
-import { getAllByRole, render, RenderResult } from '@testing-library/react'
+import { act, getAllByRole, render, RenderResult } from '@testing-library/react'
 import * as React from 'react'
 import { ExpansionStrategy } from '../strategies/expansion'
 import { Canbetoc } from './Canbetoc'
@@ -18,6 +18,7 @@ describe('<Canbetoc />', () => {
   document.body.appendChild(container)
 
   beforeEach(async () => {
+    jest.useFakeTimers()
     renderResult = render(
       <Canbetoc
         id="test"
@@ -37,6 +38,9 @@ describe('<Canbetoc />', () => {
   })
 
   test('snapshot', () => {
+    act(() => {
+      jest.advanceTimersByTime(100)
+    })
     const { asFragment } = renderResult
 
     expect(asFragment()).toMatchSnapshot()
@@ -44,12 +48,18 @@ describe('<Canbetoc />', () => {
 
   describe('elements', () => {
     test('list', () => {
+      act(() => {
+        jest.advanceTimersByTime(100)
+      })
       const [list] = getAllByRole(navigation, 'list')
       expect(list).toHaveClass('react-canbetoc__toc-list')
       expect(list).toHaveClass('react-canbetoc__toc-list--root')
     })
 
     test('listitem', () => {
+      act(() => {
+        jest.advanceTimersByTime(100)
+      })
       const [list] = getAllByRole(navigation, 'list')
       const listitems = getAllByRole(list, 'listitem')
       const expectListitem = (
