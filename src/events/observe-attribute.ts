@@ -107,6 +107,6 @@ export class ObserveAttribute implements TraitObserveAttribute {
       return () => {
         this.mutationObserverAdaptor.disconnect(id)
       }
-    }, [tocBaseElementRef.current, strategy])
+    }, [id, tocBaseElementRef.current, strategy, optionTocEntries])
   }
 }
