@@ -11,6 +11,7 @@
 ### Properties
 
 * [entries](_components_canbetoclist_.canbetoclistprops.md#entries)
+* [tocId](_components_canbetoclist_.canbetoclistprops.md#tocid)
 
 ## Properties
 
@@ -18,4 +19,12 @@
 
 • **entries**: *[TraitTocEntryDao](_entities_toc_entry_dao_.traittocentrydao.md)[]*
 
-*Defined in [src/components/CanbetocList.tsx:32](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/components/CanbetocList.tsx#L32)*
+*Defined in [src/components/CanbetocList.tsx:32](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/CanbetocList.tsx#L32)*
+
+___
+
+###  tocId
+
+• **tocId**: *string*
+
+*Defined in [src/components/CanbetocList.tsx:33](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/CanbetocList.tsx#L33)*

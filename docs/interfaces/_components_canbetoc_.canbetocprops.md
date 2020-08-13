@@ -23,7 +23,7 @@
 
 • **children**: *ReactElement*
 
-*Defined in [src/components/Canbetoc.tsx:17](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/components/Canbetoc.tsx#L17)*
+*Defined in [src/components/Canbetoc.tsx:17](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/Canbetoc.tsx#L17)*
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [src/components/Canbetoc.tsx:18](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/components/Canbetoc.tsx#L18)*
+*Defined in [src/components/Canbetoc.tsx:18](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/Canbetoc.tsx#L18)*
 
 ___
 
@@ -39,7 +39,7 @@ ___
 
 • **intersectionObserverInit**? : *IntersectionObserverInit*
 
-*Defined in [src/components/Canbetoc.tsx:19](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/components/Canbetoc.tsx#L19)*
+*Defined in [src/components/Canbetoc.tsx:19](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/Canbetoc.tsx#L19)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **selectors**: *string[]*
 
-*Defined in [src/components/Canbetoc.tsx:20](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/components/Canbetoc.tsx#L20)*
+*Defined in [src/components/Canbetoc.tsx:20](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/Canbetoc.tsx#L20)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **strategy**: *[TraitStrategy](_strategies_strategy_.traitstrategy.md)*
 
-*Defined in [src/components/Canbetoc.tsx:21](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/components/Canbetoc.tsx#L21)*
+*Defined in [src/components/Canbetoc.tsx:21](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/Canbetoc.tsx#L21)*
 
 ___
 
@@ -63,4 +63,4 @@ ___
 
 • **tocClassName**? : *Partial‹[StructTocClassNameContext](_contexts_toc_class_name_context_.structtocclassnamecontext.md)›*
 
-*Defined in [src/components/Canbetoc.tsx:22](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/components/Canbetoc.tsx#L22)*
+*Defined in [src/components/Canbetoc.tsx:22](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/Canbetoc.tsx#L22)*

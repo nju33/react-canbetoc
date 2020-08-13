@@ -19,12 +19,15 @@
 
 ### `Const` CanbetocItem
 
-• **CanbetocItem**: *React.FC‹object›* = memo(({ entry, hierarchyLevel }) => {
+• **CanbetocItem**: *React.FC‹object›* = memo(({ entry, hierarchyLevel, tocId }) => {
+  const getCacheKey = useCallback((id: string): string => `${tocId}-${id}`, [
+    tocId
+  ])
   const cache = useContext(cacheContext)
   const className = useContext(tocClassNameContext)
   const id = entry.useId()
   const [style, setStyle] = useState<any>({
-    height: cache.height.get(id) ?? '0'
+    height: cache.height.get(getCacheKey(id)) ?? '0'
   })
 
   const elementRef = useCallback(
@@ -40,9 +43,12 @@
         }),
         map(([liElement, anchorElement]) => {
           setStyle(() => {
-            const height = String(window.getComputedStyle(liElement).lineHeight)
+            const height = Math.max(
+              liElement.clientHeight,
+              anchorElement.clientHeight
+            )
 
-            cache.height.set(id, height)
+            cache.height.set(getCacheKey(id), String(height))
             return { height }
           })
 
@@ -59,7 +65,7 @@
         })
       )
     },
-    [entry, cache, setStyle]
+    [getCacheKey, entry, cache, setStyle]
   )
   return (
     <li
@@ -86,6 +92,7 @@
             return (
               <CanbetocItem
                 key={item.getRandomId()}
+                tocId={tocId}
                 entry={item}
                 hierarchyLevel={hierarchyLevel + 1}
               />
@@ -97,14 +104,14 @@
   )
 })
 
-*Defined in [src/components/CanbetocList.tsx:35](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/components/CanbetocList.tsx#L35)*
+*Defined in [src/components/CanbetocList.tsx:36](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/CanbetocList.tsx#L36)*
 
 ___
 
 ### `Const` CanbetocList
 
 • **CanbetocList**: *NamedExoticComponent‹[CanbetocListProps](../interfaces/_components_canbetoclist_.canbetoclistprops.md) & RefAttributes‹HTMLUListElement››* = memo(
-  forwardRef<HTMLUListElement, CanbetocListProps>(({ entries }, ref) => {
+  forwardRef<HTMLUListElement, CanbetocListProps>(({ entries, tocId }, ref) => {
     const className = useContext(tocClassNameContext)
     const [cache] = useState({
       height: new Map<string, string>()
@@ -119,6 +126,7 @@ ___
             return (
               <CanbetocItem
                 key={entry.getRandomId()}
+                tocId={tocId}
                 entry={entry}
                 hierarchyLevel={1}
               />
@@ -130,7 +138,7 @@ ___
   })
 )
 
-*Defined in [src/components/CanbetocList.tsx:116](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/components/CanbetocList.tsx#L116)*
+*Defined in [src/components/CanbetocList.tsx:125](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/CanbetocList.tsx#L125)*
 
 ___
 
@@ -140,7 +148,7 @@ ___
   height: new Map<string, string>()
 })
 
-*Defined in [src/components/CanbetocList.tsx:27](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/components/CanbetocList.tsx#L27)*
+*Defined in [src/components/CanbetocList.tsx:27](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/CanbetocList.tsx#L27)*
 
 ___
 
@@ -148,7 +156,7 @@ ___
 
 • **getKey**: *function* = getOrElse(() => '')
 
-*Defined in [src/components/CanbetocList.tsx:25](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/components/CanbetocList.tsx#L25)*
+*Defined in [src/components/CanbetocList.tsx:25](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/components/CanbetocList.tsx#L25)*
 
 #### Type declaration:
 

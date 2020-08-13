@@ -22,7 +22,7 @@
 
 • **findById**: *function*
 
-*Defined in [src/interface/portable-dom-adaptor.ts:4](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/interface/portable-dom-adaptor.ts#L4)*
+*Defined in [src/interface/portable-dom-adaptor.ts:4](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/interface/portable-dom-adaptor.ts#L4)*
 
 #### Type declaration:
 

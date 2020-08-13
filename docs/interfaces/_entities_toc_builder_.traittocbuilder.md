@@ -26,7 +26,7 @@
 
 • **addElements**: *function*
 
-*Defined in [src/entities/toc-builder.ts:15](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/toc-builder.ts#L15)*
+*Defined in [src/entities/toc-builder.ts:15](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/entities/toc-builder.ts#L15)*
 
 現在の階層の子要素として`elements`を配置
 
@@ -46,7 +46,7 @@ ___
 
 • **build**: *function*
 
-*Defined in [src/entities/toc-builder.ts:16](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/toc-builder.ts#L16)*
+*Defined in [src/entities/toc-builder.ts:16](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/entities/toc-builder.ts#L16)*
 
 #### Type declaration:
 
@@ -64,7 +64,7 @@ ___
 
 • **get**: *function*
 
-*Defined in [src/entities/toc-builder.ts:17](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/toc-builder.ts#L17)*
+*Defined in [src/entities/toc-builder.ts:17](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/entities/toc-builder.ts#L17)*
 
 #### Type declaration:
 
@@ -76,7 +76,7 @@ ___
 
 • **getList**: *function*
 
-*Defined in [src/entities/toc-builder.ts:18](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/toc-builder.ts#L18)*
+*Defined in [src/entities/toc-builder.ts:18](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/entities/toc-builder.ts#L18)*
 
 #### Type declaration:
 
@@ -88,7 +88,7 @@ ___
 
 • **setHierarchy**: *function*
 
-*Defined in [src/entities/toc-builder.ts:24](https://github.com/nju33/react-canbetoc/blob/d6b2f5b/src/entities/toc-builder.ts#L24)*
+*Defined in [src/entities/toc-builder.ts:24](https://github.com/nju33/react-canbetoc/blob/dbfcbaa/src/entities/toc-builder.ts#L24)*
 
 階層移動
 
