@@ -54,7 +54,7 @@
     }
   )
 
-*Defined in [src/events/observe.ts:37](https://github.com/nju33/react-canbetoc/blob/62216a1/src/events/observe.ts#L37)*
+*Defined in [src/events/observe.ts:37](https://github.com/nju33/react-canbetoc/blob/ee204cb/src/events/observe.ts#L37)*
 
 ## Methods
 
@@ -62,7 +62,7 @@
 
 ▸ **useCase**(`optionTocEntries`: Option‹[TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]›, `memoizedIntersectionObserverInit`: IntersectionObserverInit): *ReturnType‹TraitObserve["useCase"]›*
 
-*Defined in [src/events/observe.ts:67](https://github.com/nju33/react-canbetoc/blob/62216a1/src/events/observe.ts#L67)*
+*Defined in [src/events/observe.ts:67](https://github.com/nju33/react-canbetoc/blob/ee204cb/src/events/observe.ts#L67)*
 
 **Parameters:**
 

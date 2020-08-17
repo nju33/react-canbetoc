@@ -22,7 +22,7 @@
 
 ▸ **handle**(`tocEntries`: [TraitTocEntry](../interfaces/_entities_toc_entry_.traittocentry.md)[]): *Promise‹void›*
 
-*Defined in [src/strategies/expansion/expansion-strategy.ts:7](https://github.com/nju33/react-canbetoc/blob/62216a1/src/strategies/expansion/expansion-strategy.ts#L7)*
+*Defined in [src/strategies/expansion/expansion-strategy.ts:7](https://github.com/nju33/react-canbetoc/blob/ee204cb/src/strategies/expansion/expansion-strategy.ts#L7)*
 
 **Parameters:**
 

@@ -23,7 +23,7 @@
 
 ▸ **activeTocListItemStructure**(`height`: number): *[TocListItemStructure](../interfaces/_entities_toc_list_item_structure_.toclistitemstructure.md)*
 
-*Defined in [src/entities/toc-list-item-structure.ts:9](https://github.com/nju33/react-canbetoc/blob/62216a1/src/entities/toc-list-item-structure.ts#L9)*
+*Defined in [src/entities/toc-list-item-structure.ts:9](https://github.com/nju33/react-canbetoc/blob/ee204cb/src/entities/toc-list-item-structure.ts#L9)*
 
 **Parameters:**
 
@@ -39,7 +39,7 @@ ___
 
 ▸ **tocListItemStructure**(): *[TocListItemStructure](../interfaces/_entities_toc_list_item_structure_.toclistitemstructure.md)*
 
-*Defined in [src/entities/toc-list-item-structure.ts:18](https://github.com/nju33/react-canbetoc/blob/62216a1/src/entities/toc-list-item-structure.ts#L18)*
+*Defined in [src/entities/toc-list-item-structure.ts:18](https://github.com/nju33/react-canbetoc/blob/ee204cb/src/entities/toc-list-item-structure.ts#L18)*
 
 **Returns:** *[TocListItemStructure](../interfaces/_entities_toc_list_item_structure_.toclistitemstructure.md)*
 
@@ -49,10 +49,10 @@ ___
 
 ### ▪ **defaultTocListItemStructure**: *object*
 
-*Defined in [src/entities/toc-list-item-structure.ts:5](https://github.com/nju33/react-canbetoc/blob/62216a1/src/entities/toc-list-item-structure.ts#L5)*
+*Defined in [src/entities/toc-list-item-structure.ts:5](https://github.com/nju33/react-canbetoc/blob/ee204cb/src/entities/toc-list-item-structure.ts#L5)*
 
 ###  height
 
 • **height**: *string* = "auto"
 
-*Defined in [src/entities/toc-list-item-structure.ts:6](https://github.com/nju33/react-canbetoc/blob/62216a1/src/entities/toc-list-item-structure.ts#L6)*
+*Defined in [src/entities/toc-list-item-structure.ts:6](https://github.com/nju33/react-canbetoc/blob/ee204cb/src/entities/toc-list-item-structure.ts#L6)*

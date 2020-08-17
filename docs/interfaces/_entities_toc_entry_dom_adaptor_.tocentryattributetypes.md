@@ -20,7 +20,7 @@
 
 • **activeBranch**: *boolean*
 
-*Defined in [src/entities/toc-entry-dom-adaptor.ts:4](https://github.com/nju33/react-canbetoc/blob/62216a1/src/entities/toc-entry-dom-adaptor.ts#L4)*
+*Defined in [src/entities/toc-entry-dom-adaptor.ts:4](https://github.com/nju33/react-canbetoc/blob/ee204cb/src/entities/toc-entry-dom-adaptor.ts#L4)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **activeItem**: *boolean*
 
-*Defined in [src/entities/toc-entry-dom-adaptor.ts:5](https://github.com/nju33/react-canbetoc/blob/62216a1/src/entities/toc-entry-dom-adaptor.ts#L5)*
+*Defined in [src/entities/toc-entry-dom-adaptor.ts:5](https://github.com/nju33/react-canbetoc/blob/ee204cb/src/entities/toc-entry-dom-adaptor.ts#L5)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **latestIntersected**: *boolean*
 
-*Defined in [src/entities/toc-entry-dom-adaptor.ts:6](https://github.com/nju33/react-canbetoc/blob/62216a1/src/entities/toc-entry-dom-adaptor.ts#L6)*
+*Defined in [src/entities/toc-entry-dom-adaptor.ts:6](https://github.com/nju33/react-canbetoc/blob/ee204cb/src/entities/toc-entry-dom-adaptor.ts#L6)*
