@@ -1,3 +1,4 @@
+import 'regenerator-runtime/runtime'
 import { takeLeftWhile } from 'fp-ts/lib/Array'
 import { fromPredicate, getOrElse, Option, some } from 'fp-ts/lib/Option'
 import { Selector, TraitSelector } from './selector'

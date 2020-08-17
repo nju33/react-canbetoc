@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "@types/throttle-debounce": "^2.1.0",
+    "regenerator-runtime": "^0.13.7",
     "throttle-debounce": "^2.2.1"
   },
   "devDependencies": {
