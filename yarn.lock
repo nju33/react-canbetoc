@@ -2872,10 +2872,10 @@
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-"@wdio/cli@6.4.1":
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.4.1.tgz#29091dde0c7657279cdbc19d5d07cf2b3363f49e"
-  integrity sha512-DvAzMQJlRgd9zFI8KXvYzmVc7XyzcQ3/VMqCMvqHdpGsV6pcg70itmi7sEzyWhf+3yr8LC9dfGkSw6nV1Cx3Ww==
+"@wdio/cli@6.4.2":
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.4.2.tgz#7d9def17659177a0056450e92f0932c75b6927d6"
+  integrity sha512-JY47DrGnTaZx46yN7eXBnFdkPfgrTzSi782k6VycOddYHJzgRft2pKehWrregnjyWcoUwuSXstT8PNI1PX5sVA==
   dependencies:
     "@wdio/config" "6.1.14"
     "@wdio/logger" "6.0.16"
@@ -2892,7 +2892,7 @@
     lodash.union "^4.6.0"
     mkdirp "^1.0.4"
     recursive-readdir "^2.2.2"
-    webdriverio "6.4.1"
+    webdriverio "6.4.2"
     yargs "^15.0.1"
     yarn-install "^1.0.0"
 
@@ -15442,10 +15442,10 @@ webdriver@6.3.6:
     got "^11.0.2"
     lodash.merge "^4.6.1"
 
-webdriver@6.4.1:
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.4.1.tgz#9fd8ff970e1f99b6f44c5f7a4868f8fd3645fa28"
-  integrity sha512-EmyGm2zcTRO0j9NcQEOtEQHJDOw6nLzDIdO05dqXfGcep4zrmYvbPpGriWeucpNTTBSo6XS1mhwmFHj3QrJPHg==
+webdriver@6.4.2:
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.4.2.tgz#d677bcde624e89092ffb08f85d9854cdc4ec059e"
+  integrity sha512-8aj6zSxI9B9/O9DKiBUNc0BcmtEWHFcgeoVn0IqytTWN+M30UVrl1PuWPqrp2wTWMlW4ZAOW1ifnPQOBxbbniQ==
   dependencies:
     "@wdio/config" "6.1.14"
     "@wdio/logger" "6.0.16"
@@ -15481,10 +15481,10 @@ webdriverio@*:
     serialize-error "^7.0.0"
     webdriver "6.3.6"
 
-webdriverio@6.4.1:
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.4.1.tgz#b8e2625940279c7490c0840fb34592ba7c6a2426"
-  integrity sha512-W6/ICj55Fd1jtIBYx7hPtsgQaE2RUeqGAxGbo0+lp2ha1mJtAQt6wYLOqvt9Ke6DHizjOExasp5Weovhw2/2Jg==
+webdriverio@6.4.2:
+  version "6.4.2"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.4.2.tgz#c8ddfe589920b0c9a3a64021cf024fd815b5c135"
+  integrity sha512-TSGAUW35JhtsyDeoO53FCzyv9INEdF0KyzL284dlUwKYCY4k23rrqN54GRYTRHFwvoIfQDn0zJoXR9o7yB2pjQ==
   dependencies:
     "@types/puppeteer" "^3.0.1"
     "@wdio/config" "6.1.14"
@@ -15506,7 +15506,7 @@ webdriverio@6.4.1:
     resq "^1.6.0"
     rgb2hex "^0.2.0"
     serialize-error "^7.0.0"
-    webdriver "6.4.1"
+    webdriver "6.4.2"
 
 webidl-conversions@^5.0.0:
   version "5.0.0"
