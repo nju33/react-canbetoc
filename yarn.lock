@@ -2872,10 +2872,10 @@
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-"@wdio/cli@6.4.2":
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.4.2.tgz#7d9def17659177a0056450e92f0932c75b6927d6"
-  integrity sha512-JY47DrGnTaZx46yN7eXBnFdkPfgrTzSi782k6VycOddYHJzgRft2pKehWrregnjyWcoUwuSXstT8PNI1PX5sVA==
+"@wdio/cli@6.4.4":
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.4.4.tgz#a79326fe328a549f0ef48aa4e37ff1d7bf2b69bc"
+  integrity sha512-KZT/1dY3SJHu0EhIrmj6w20vjNMZh7FVEHETo5kIFLZRM9Bu7W4dtL5WDsuU3l31cpS5V2smU8wda7D2znr+MA==
   dependencies:
     "@wdio/config" "6.1.14"
     "@wdio/logger" "6.0.16"
@@ -2892,7 +2892,7 @@
     lodash.union "^4.6.0"
     mkdirp "^1.0.4"
     recursive-readdir "^2.2.2"
-    webdriverio "6.4.2"
+    webdriverio "6.4.4"
     yargs "^15.0.1"
     yarn-install "^1.0.0"
 
@@ -5773,10 +5773,10 @@ devtools@6.3.6:
     ua-parser-js "^0.7.21"
     uuid "^8.0.0"
 
-devtools@6.4.1:
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/devtools/-/devtools-6.4.1.tgz#d6c339b2ab905fcc2b0adf932051f90a854392e2"
-  integrity sha512-D5mg5ISUzVkPGJO5copvzI6fpsFzDJuKBs7a1ERWNm6P2p1Diyk2UH3O2VGIbJOETQswfRVHduX6gHeIm0J+JA==
+devtools@6.4.4:
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/devtools/-/devtools-6.4.4.tgz#41707e7e3de3a1e72373044a00f93d9152d92827"
+  integrity sha512-L9kfK/wkHWzBy0gvFmMmLyLzDgGbeVKk8bRwTZ3N99uo+Pt3IF6oBDjEPzE721dNzaO91/xVr5l97+Uo1eabMA==
   dependencies:
     "@wdio/config" "6.1.14"
     "@wdio/logger" "6.0.16"
@@ -15492,10 +15492,10 @@ webdriverio@*:
     serialize-error "^7.0.0"
     webdriver "6.3.6"
 
-webdriverio@6.4.2:
-  version "6.4.2"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.4.2.tgz#c8ddfe589920b0c9a3a64021cf024fd815b5c135"
-  integrity sha512-TSGAUW35JhtsyDeoO53FCzyv9INEdF0KyzL284dlUwKYCY4k23rrqN54GRYTRHFwvoIfQDn0zJoXR9o7yB2pjQ==
+webdriverio@6.4.4:
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.4.4.tgz#202dee3e3ddc2e1599c393cdd24519f138a596e8"
+  integrity sha512-KmioPyB9JysQN+4Gwe3LRK5CLFwZp6T4S+oI8aFMUVUBbp7zJuosq8oLI1wJzTaysInotNldOCOC3dEIVjNyuQ==
   dependencies:
     "@types/puppeteer" "^3.0.1"
     "@wdio/config" "6.1.14"
@@ -15505,7 +15505,7 @@ webdriverio@6.4.2:
     archiver "^5.0.0"
     atob "^2.1.2"
     css-value "^0.0.1"
-    devtools "6.4.1"
+    devtools "6.4.4"
     get-port "^5.1.1"
     grapheme-splitter "^1.0.2"
     lodash.clonedeep "^4.5.0"
