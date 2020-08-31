@@ -2784,12 +2784,12 @@
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-"@wdio/cli@6.4.4":
-  version "6.4.4"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.4.4.tgz#a79326fe328a549f0ef48aa4e37ff1d7bf2b69bc"
-  integrity sha512-KZT/1dY3SJHu0EhIrmj6w20vjNMZh7FVEHETo5kIFLZRM9Bu7W4dtL5WDsuU3l31cpS5V2smU8wda7D2znr+MA==
+"@wdio/cli@6.4.5":
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.4.5.tgz#ca2fa64485cdf8f46c298ea7006a7206e12e90bf"
+  integrity sha512-2Wa/ONo4u0TTidV5IpK5vjG4MprhUaUEFZeriO6L1kYjU0jc0jQgMfewY/oZtGs4T3huIJICRrhWmWDRT3T9+w==
   dependencies:
-    "@wdio/config" "6.1.14"
+    "@wdio/config" "6.4.5"
     "@wdio/logger" "6.0.16"
     "@wdio/utils" "6.4.0"
     async-exit-hook "^2.0.1"
@@ -2804,7 +2804,7 @@
     lodash.union "^4.6.0"
     mkdirp "^1.0.4"
     recursive-readdir "^2.2.2"
-    webdriverio "6.4.4"
+    webdriverio "6.4.5"
     yargs "^15.0.1"
     yarn-install "^1.0.0"
 
@@ -2812,6 +2812,15 @@
   version "6.1.14"
   resolved "https://registry.yarnpkg.com/@wdio/config/-/config-6.1.14.tgz#41dec1cebcc76e387b44ddef0302839ffac1f99f"
   integrity sha512-MXHMHwtkAblfnIxONs9aW//T9Fq5XIw3oH+tztcBRvNTTAIXmwHd+4sOjAwjpCdBSGs0C4kM/aTpGfwDZVURvQ==
+  dependencies:
+    "@wdio/logger" "6.0.16"
+    deepmerge "^4.0.0"
+    glob "^7.1.2"
+
+"@wdio/config@6.4.5":
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/@wdio/config/-/config-6.4.5.tgz#2e341a3388b6b33dcfb4c112855c0b7c336e403a"
+  integrity sha512-C5mKV4xWRWut8HBhVDkalYRcoGvXDD2GATzL5xBv4n/d2xYBxxKL6XxLCjS3v5dFa7AxhJfxtN/69gR1ijc3qQ==
   dependencies:
     "@wdio/logger" "6.0.16"
     deepmerge "^4.0.0"
@@ -5661,6 +5670,20 @@ devtools@6.4.4:
   integrity sha512-L9kfK/wkHWzBy0gvFmMmLyLzDgGbeVKk8bRwTZ3N99uo+Pt3IF6oBDjEPzE721dNzaO91/xVr5l97+Uo1eabMA==
   dependencies:
     "@wdio/config" "6.1.14"
+    "@wdio/logger" "6.0.16"
+    "@wdio/protocols" "6.3.6"
+    "@wdio/utils" "6.4.0"
+    chrome-launcher "^0.13.1"
+    puppeteer-core "^5.1.0"
+    ua-parser-js "^0.7.21"
+    uuid "^8.0.0"
+
+devtools@6.4.5:
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/devtools/-/devtools-6.4.5.tgz#2e79861bb3391b4e7c4d06d93ff4e838e920bff9"
+  integrity sha512-3mmRdV3MusO+z52Ek9kgjoyW0q/NvUbHCQiKg92iGCsonHmFAaNLrDJL8Wp9KZsboAXSXWkkGgJQoVQcD4Bb7A==
+  dependencies:
+    "@wdio/config" "6.4.5"
     "@wdio/logger" "6.0.16"
     "@wdio/protocols" "6.3.6"
     "@wdio/utils" "6.4.0"
@@ -15356,7 +15379,19 @@ webdriver@6.4.2:
     got "^11.0.2"
     lodash.merge "^4.6.1"
 
-webdriverio@*, webdriverio@6.4.4:
+webdriver@6.4.5:
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/webdriver/-/webdriver-6.4.5.tgz#169e2696833fb8bbc72ff306f1893f9197615b54"
+  integrity sha512-RJCFpY1fyEDRiTW7VJxZCe/gHKxGvN3lquuIHJ9Y10XsVq/pga8jxPojiXZ9gCbsWkdsgGjY0p0u1ENdEZftaQ==
+  dependencies:
+    "@wdio/config" "6.4.5"
+    "@wdio/logger" "6.0.16"
+    "@wdio/protocols" "6.3.6"
+    "@wdio/utils" "6.4.0"
+    got "^11.0.2"
+    lodash.merge "^4.6.1"
+
+webdriverio@*:
   version "6.4.4"
   resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.4.4.tgz#202dee3e3ddc2e1599c393cdd24519f138a596e8"
   integrity sha512-KmioPyB9JysQN+4Gwe3LRK5CLFwZp6T4S+oI8aFMUVUBbp7zJuosq8oLI1wJzTaysInotNldOCOC3dEIVjNyuQ==
@@ -15382,6 +15417,33 @@ webdriverio@*, webdriverio@6.4.4:
     rgb2hex "^0.2.0"
     serialize-error "^7.0.0"
     webdriver "6.4.2"
+
+webdriverio@6.4.5:
+  version "6.4.5"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.4.5.tgz#fa0746ccc919c23634798ba0a9cbfda3b0def39a"
+  integrity sha512-WpoiHbN9mK6If5PHNVXEc2jVhWriq+uV0PpQoysXJ3+htA9ieWps/i3baNLa+imKEARaAN40OQfP+2TGU3w7PA==
+  dependencies:
+    "@types/puppeteer" "^3.0.1"
+    "@wdio/config" "6.4.5"
+    "@wdio/logger" "6.0.16"
+    "@wdio/repl" "6.4.0"
+    "@wdio/utils" "6.4.0"
+    archiver "^5.0.0"
+    atob "^2.1.2"
+    css-value "^0.0.1"
+    devtools "6.4.5"
+    get-port "^5.1.1"
+    grapheme-splitter "^1.0.2"
+    lodash.clonedeep "^4.5.0"
+    lodash.isobject "^3.0.2"
+    lodash.isplainobject "^4.0.6"
+    lodash.zip "^4.2.0"
+    minimatch "^3.0.4"
+    puppeteer-core "^5.1.0"
+    resq "^1.6.0"
+    rgb2hex "^0.2.0"
+    serialize-error "^7.0.0"
+    webdriver "6.4.5"
 
 webidl-conversions@^5.0.0:
   version "5.0.0"
