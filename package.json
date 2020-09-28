@@ -92,7 +92,7 @@
     "intersection-observer": "0.11.0",
     "jest": "26.4.2",
     "lint-staged": "10.4.0",
-    "microbundle": "0.12.3",
+    "microbundle": "0.12.4",
     "prettier": "2.1.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
