@@ -2816,10 +2816,10 @@
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-"@wdio/cli@6.6.4":
-  version "6.6.4"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.6.4.tgz#b6288dae6ab6882d9d1079f5afedaf31d02317da"
-  integrity sha512-4xPbs7Llu9/dM0d/848V/RsC/cYL82ODg31dvuSRXH8ZWpIfGHGuOPgLdXMXlgQ1zf3tZR4ZTJUhF5frrOoTzg==
+"@wdio/cli@6.6.6":
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.6.6.tgz#8d2d1d4b21a51d70f3ce28499cf5e5a141ec9e17"
+  integrity sha512-tirdaqPfc86e5VlgPmmFe9ekwS9et6G4DiB3aDiVvGvCoelRXAY1vOJKy/rKX4sH1lH5mOJHOPKZz6eRV5BV1g==
   dependencies:
     "@wdio/config" "6.6.3"
     "@wdio/logger" "6.6.0"
@@ -2836,7 +2836,7 @@
     lodash.union "^4.6.0"
     mkdirp "^1.0.4"
     recursive-readdir "^2.2.2"
-    webdriverio "6.6.4"
+    webdriverio "6.6.6"
     yargs "^16.0.3"
     yarn-install "^1.0.0"
 
@@ -12791,6 +12791,13 @@ resq@^1.6.0:
   dependencies:
     fast-deep-equal "^2.0.1"
 
+resq@^1.9.1:
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/resq/-/resq-1.9.2.tgz#f674b061b22b415225edb4d0b20c33a85f949fc1"
+  integrity sha512-Y+fprJ9wQY64gh+vJRNatiG61G+9XD5jJe4kI/Rqw6gmOa5ihZvgrxZVydqyM96xj75jwaRCPVYPU3RwsEk6ug==
+  dependencies:
+    fast-deep-equal "^2.0.1"
+
 restore-cursor@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/restore-cursor/-/restore-cursor-2.0.0.tgz#9f7ee287f82fd326d4fd162923d62129eee0dfaf"
@@ -15555,10 +15562,10 @@ webdriverio@*:
     serialize-error "^7.0.0"
     webdriver "6.5.0"
 
-webdriverio@6.6.4:
-  version "6.6.4"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.6.4.tgz#4ce45afa8e2d88c629f31fcf5c0c296724ff4af2"
-  integrity sha512-jDSAX/+2zaByhGUSAg0B6Ela3CnqqDRBodzLqlA4LPaoFnW8TK6Yo5WSD927bVSu4lnY3uMXikrK+kyIyAwkUw==
+webdriverio@6.6.6:
+  version "6.6.6"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.6.6.tgz#750b594f5254cc0d5eb452251e5e08d10e93ad71"
+  integrity sha512-DzNSh9rx8iYFVr8gfs5q+/EwqXLEAWJSpog8cQZMABSxmooQKKpClRQ/j0dg2Lj2x7cDji69qvWDq0BtgUNzGw==
   dependencies:
     "@types/puppeteer" "^3.0.1"
     "@wdio/config" "6.6.3"
@@ -15578,7 +15585,7 @@ webdriverio@6.6.4:
     lodash.zip "^4.2.0"
     minimatch "^3.0.4"
     puppeteer-core "^5.1.0"
-    resq "^1.6.0"
+    resq "^1.9.1"
     rgb2hex "^0.2.0"
     serialize-error "^7.0.0"
     webdriver "6.6.3"
