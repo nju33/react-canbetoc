@@ -59,7 +59,7 @@
     "@types/eslint": "7.2.4",
     "@types/faker": "4.1.12",
     "@types/jest": "26.0.14",
-    "@types/react": "16.9.52",
+    "@types/react": "16.9.53",
     "@types/react-dom": "16.9.8",
     "@types/react-helmet": "6.1.0",
     "@types/webdriverio": "5.0.0",
@@ -114,6 +114,6 @@
     "webdriverio": "6.6.6"
   },
   "resolutions": {
-    "@types/react": "16.9.52"
+    "@types/react": "16.9.53"
   }
 }
