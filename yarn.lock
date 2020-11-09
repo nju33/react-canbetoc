@@ -2841,10 +2841,10 @@
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
-"@wdio/cli@6.7.3":
-  version "6.7.3"
-  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.7.3.tgz#17983c20e084962783d22db68ae16a006152771b"
-  integrity sha512-k6yx0tIBJ1baMxE86kBzNCoZdg/hZiZetGer3mNr4DHfgiGksR4ohyzt+rcpii3r0cTCpyF4f872JkTYYFnouw==
+"@wdio/cli@6.7.4":
+  version "6.7.4"
+  resolved "https://registry.yarnpkg.com/@wdio/cli/-/cli-6.7.4.tgz#a75ccec027d34b0b4261ce185d208e82913e0822"
+  integrity sha512-ft3urYS4Pc8cel1JcksKszeIe1QbG574aSQ8OZcRhH8Opixr69EybXWo4lUWbj5tKlD8X2HDPNrUFvx5B17BMA==
   dependencies:
     "@wdio/config" "6.7.3"
     "@wdio/logger" "6.7.3"
