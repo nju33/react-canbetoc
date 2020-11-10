@@ -67,7 +67,7 @@
     "@typescript-eslint/eslint-plugin": "3.10.1",
     "@typescript-eslint/parser": "3.10.1",
     "@wdio/cli": "6.7.4",
-    "babel-loader": "8.2.0",
+    "babel-loader": "8.2.1",
     "css-loader": "3.6.0",
     "eslint": "7.13.0",
     "eslint-config-prettier": "6.15.0",
